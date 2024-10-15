@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/RobotCMD.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct RobotCMD_Request {
+      @verbatim (language="comment", text=
+        "default: 64 (@), as this default values is highly unlikely to not be used for anything in deployemnt")
+      @default (value=64)
+      uint8 cmd_chr;
+
+      @verbatim (language="comment", text=
+        "default: 0")
+      @default (value=0)
+      int32 arg1;
+
+      @verbatim (language="comment", text=
+        "default: 0")
+      @default (value=0)
+      int32 arg2;
+
+      @verbatim (language="comment", text=
+        "default: 0")
+      @default (value=0)
+      int32 arg3;
+    };
+    struct RobotCMD_Response {
+      @verbatim (language="comment", text=
+        "default: empty string")
+      @default (value="")
+      string controller_data;
+    };
+  };
+};

@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "icm-20948 IMU Test Project"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"random": "cpp",
+			"*.tcc": "cpp"
+		},
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#b932e2",
+			"activityBar.background": "#b932e2",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#54430c",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#b932e2",
+			"statusBar.background": "#9e1cc5",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#b932e2",
+			"statusBarItem.remoteBackground": "#9e1cc5",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#9e1cc5",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#9e1cc599",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#9e1cc5"
+	}
+}

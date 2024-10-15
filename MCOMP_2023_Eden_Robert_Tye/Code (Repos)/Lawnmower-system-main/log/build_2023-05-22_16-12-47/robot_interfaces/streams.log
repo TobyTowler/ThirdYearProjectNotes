@@ -1,0 +1,233 @@
+[0.151s] Invoking command in '/home/pi/Lawnmower-system/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/pi/Lawnmower-system/install/robot_motor_control_py /usr/bin/cmake --build /home/pi/Lawnmower-system/build/robot_interfaces -- -j4 -l4
+[0.701s] [  1%] Built target robot_interfaces__cpp
+[0.729s] [ 12%] Built target robot_interfaces__rosidl_generator_c
+[0.840s] [ 12%] Built target ament_cmake_python_copy_robot_interfaces
+[0.972s] [ 23%] Built target robot_interfaces__rosidl_typesupport_cpp
+[0.998s] [ 34%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.007s] [ 45%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[1.129s] [ 56%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[1.226s] [ 67%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[1.242s] [ 78%] Built target robot_interfaces__rosidl_typesupport_c
+[1.453s] [ 78%] Built target robot_interfaces
+[1.672s] [ 80%] Built target robot_interfaces__py
+[1.926s] [ 89%] Built target robot_interfaces__rosidl_generator_py
+[2.182s] [ 92%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.186s] [ 96%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.202s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[4.201s] running egg_info
+[4.208s] writing robot_interfaces.egg-info/PKG-INFO
+[4.210s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[4.212s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[4.238s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[4.246s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[4.487s] [100%] Built target ament_cmake_python_build_robot_interfaces_egg
+[4.594s] Invoked command in '/home/pi/Lawnmower-system/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/pi/Lawnmower-system/install/robot_motor_control_py /usr/bin/cmake --build /home/pi/Lawnmower-system/build/robot_interfaces -- -j4 -l4
+[6.239s] Invoking command in '/home/pi/Lawnmower-system/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/pi/Lawnmower-system/install/robot_motor_control_py /usr/bin/cmake --install /home/pi/Lawnmower-system/build/robot_interfaces
+[6.311s] -- Install configuration: ""
+[6.312s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[6.313s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[6.314s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[6.315s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_serial_received.h
+[6.316s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[6.317s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__type_support.h
+[6.318s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__struct.h
+[6.319s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__functions.h
+[6.320s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__functions.c
+[6.322s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__functions.c
+[6.322s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__struct.h
+[6.324s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__functions.h
+[6.325s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__type_support.h
+[6.326s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.327s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_send_cmd.h
+[6.328s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[6.329s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[6.330s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.h
+[6.331s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__functions.c
+[6.332s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__struct.h
+[6.333s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__functions.h
+[6.334s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/robot_cm_ddepressiated.h
+[6.335s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[6.336s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[6.337s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__struct.h
+[6.338s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__functions.c
+[6.339s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__functions.h
+[6.340s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__type_support.h
+[6.341s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/robot_cmd.h
+[6.341s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[6.343s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[6.343s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[6.346s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[6.347s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[6.348s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.349s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[6.350s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_fastrtps_c.h
+[6.351s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_fastrtps_c.h
+[6.352s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[6.353s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[6.354s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_fastrtps_c.h
+[6.355s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[6.357s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[6.358s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_fastrtps_c.h
+[6.361s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.364s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[6.365s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[6.366s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[6.367s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__type_support.c
+[6.368s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__type_support.c
+[6.370s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_introspection_c.h
+[6.371s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_introspection_c.h
+[6.371s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.373s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[6.373s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[6.374s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.c
+[6.376s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_introspection_c.h
+[6.377s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[6.378s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[6.379s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__type_support.c
+[6.380s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_introspection_c.h
+[6.382s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[6.388s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[6.391s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[6.392s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[6.393s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_serial_received.hpp
+[6.394s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_send_cmd.hpp
+[6.395s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[6.396s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__traits.hpp
+[6.397s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__traits.hpp
+[6.398s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__struct.hpp
+[6.399s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__builder.hpp
+[6.400s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__builder.hpp
+[6.401s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__struct.hpp
+[6.402s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[6.403s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[6.404s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__struct.hpp
+[6.405s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__builder.hpp
+[6.406s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__traits.hpp
+[6.407s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/robot_cm_ddepressiated.hpp
+[6.408s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[6.409s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/robot_cmd.hpp
+[6.410s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[6.411s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__struct.hpp
+[6.412s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__traits.hpp
+[6.413s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__builder.hpp
+[6.414s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[6.415s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[6.416s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[6.417s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_fastrtps_cpp.hpp
+[6.418s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/dds_fastrtps
+[6.419s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[6.420s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.421s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[6.422s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[6.423s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/dds_fastrtps
+[6.424s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_fastrtps_cpp.hpp
+[6.425s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[6.426s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[6.427s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[6.428s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps
+[6.429s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.433s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[6.434s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[6.435s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[6.436s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_introspection_cpp.hpp
+[6.437s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__type_support.cpp
+[6.438s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_introspection_cpp.hpp
+[6.439s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__type_support.cpp
+[6.440s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[6.441s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[6.442s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_introspection_cpp.hpp
+[6.443s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.cpp
+[6.445s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[6.446s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[6.447s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_introspection_cpp.hpp
+[6.447s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__type_support.cpp
+[6.451s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.456s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[6.460s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[6.461s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[6.462s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info
+[6.463s] -- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.467s] -- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.470s] -- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.474s] -- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.477s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces
+[6.478s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg
+[6.479s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_robot_serial_received.py
+[6.481s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py
+[6.482s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_robot_send_cmd_s.c
+[6.483s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_robot_send_cmd.py
+[6.484s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_robot_serial_received_s.c
+[6.485s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[6.486s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[6.487s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.488s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.489s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.490s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action
+[6.491s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_robot_cm_ddepressiated.py
+[6.492s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/__init__.py
+[6.493s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_robot_cm_ddepressiated_s.c
+[6.494s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[6.495s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.495s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.497s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv
+[6.498s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_robot_cmd_s.c
+[6.498s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py
+[6.499s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_robot_cmd.py
+[6.868s] Listing '/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[6.870s] Listing '/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action'...
+[6.872s] Listing '/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...
+[6.873s] Listing '/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...
+[6.912s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.919s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.925s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.931s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[6.934s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/msg/RobotSerialReceived.idl
+[6.935s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/msg/RobotSendCMD.idl
+[6.936s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/srv/RobotCMD.idl
+[6.937s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/action/RobotCMDdepressiated.idl
+[6.939s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/msg/RobotSerialReceived.msg
+[6.940s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/msg/RobotSendCMD.msg
+[6.941s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/srv/RobotCMD.srv
+[6.942s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/srv/RobotCMD_Request.msg
+[6.943s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/srv/RobotCMD_Response.msg
+[6.944s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/action/RobotCMDdepressiated.action
+[6.945s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[6.946s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[6.947s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[6.948s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[6.949s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[6.950s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[6.951s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[6.952s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[6.953s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[6.954s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[6.955s] -- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.dsv
+[6.958s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[6.960s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[6.962s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.964s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.965s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.968s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.969s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.971s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[6.973s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.975s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[6.977s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.979s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.981s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.982s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.984s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[6.985s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.988s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[6.989s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.990s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.991s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.993s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.994s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.995s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.996s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.997s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.998s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[6.999s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[7.000s] -- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.xml
+[7.021s] Invoked command in '/home/pi/Lawnmower-system/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/pi/Lawnmower-system/install/robot_motor_control_py /usr/bin/cmake --install /home/pi/Lawnmower-system/build/robot_interfaces

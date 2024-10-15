@@ -1,0 +1,15 @@
+/home/pi/Lawnmower-system/install/path_nav/share/ament_index/resource_index/package_run_dependencies/path_nav
+/home/pi/Lawnmower-system/install/path_nav/share/ament_index/resource_index/parent_prefix_path/path_nav
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/environment/ament_prefix_path.sh
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/environment/ament_prefix_path.dsv
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/environment/path.sh
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/environment/path.dsv
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/local_setup.bash
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/local_setup.sh
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/local_setup.zsh
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/local_setup.dsv
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/package.dsv
+/home/pi/Lawnmower-system/install/path_nav/share/ament_index/resource_index/packages/path_nav
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/cmake/path_navConfig.cmake
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/cmake/path_navConfig-version.cmake
+/home/pi/Lawnmower-system/install/path_nav/share/path_nav/package.xml

@@ -1,0 +1,9 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_interfaces:msg/RobotSerialReceived.msg",
+    "/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_interfaces:msg/RobotSendCMD.msg",
+    "/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_interfaces:srv/RobotCMD.srv",
+    "/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_interfaces:action/RobotCMDdepressiated.action"
+  ]
+}

@@ -1,0 +1,6 @@
+Flask
+PasteScript==3.3.0
+PyMySQL==1.0.2
+python-dotenv
+requests
+waitress

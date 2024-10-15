@@ -1,0 +1,565 @@
+[0.000000] (-) TimerEvent: {}
+[0.005850] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.006401] (path_nav) JobQueued: {'identifier': 'path_nav', 'dependencies': OrderedDict([('robot_interfaces', '/home/pi/Lawnmower-system/install/robot_interfaces')])}
+[0.007151] (robot_motor_control_py) JobQueued: {'identifier': 'robot_motor_control_py', 'dependencies': OrderedDict([('robot_interfaces', '/home/pi/Lawnmower-system/install/robot_interfaces')])}
+[0.007587] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.094370] (-) TimerEvent: {}
+[0.147918] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.154573] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[0.160847] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/Lawnmower-system/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/pi/Lawnmower-system/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.101 55308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/Lawnmower-system/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/Lawnmower-system/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/Lawnmower-system/install/robot_motor_control_py:/home/pi/Lawnmower-system/install/path_nav:/home/pi/Lawnmower-system/install/robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/Lawnmower-system/build/robot_interfaces'), ('SSH_CONNECTION', '192.168.8.101 55308 192.168.8.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/Lawnmower-system/install/path_nav:/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/robot_motor_control_py:/opt/ros/humble')]), 'shell': False}
+[0.194632] (-) TimerEvent: {}
+[0.296084] (-) TimerEvent: {}
+[0.397677] (-) TimerEvent: {}
+[0.498850] (-) TimerEvent: {}
+[0.600140] (-) TimerEvent: {}
+[0.703322] (-) TimerEvent: {}
+[0.806255] (-) TimerEvent: {}
+[0.822795] (robot_interfaces) StdoutLine: {'line': b'[  1%] Built target robot_interfaces__cpp\n'}
+[0.906565] (-) TimerEvent: {}
+[0.923992] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target robot_interfaces__rosidl_generator_c\n'}
+[0.995788] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_robot_interfaces\n'}
+[1.006901] (-) TimerEvent: {}
+[1.108324] (-) TimerEvent: {}
+[1.209913] (-) TimerEvent: {}
+[1.230985] (robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.252168] (robot_interfaces) StdoutLine: {'line': b'[ 34%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[1.310182] (-) TimerEvent: {}
+[1.332655] (robot_interfaces) StdoutLine: {'line': b'[ 45%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.393524] (robot_interfaces) StdoutLine: {'line': b'[ 56%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.410496] (-) TimerEvent: {}
+[1.510603] (robot_interfaces) StdoutLine: {'line': b'[ 67%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.511981] (-) TimerEvent: {}
+[1.556468] (robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[1.612254] (-) TimerEvent: {}
+[1.713899] (-) TimerEvent: {}
+[1.781148] (robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target robot_interfaces\n'}
+[1.814188] (-) TimerEvent: {}
+[1.915736] (-) TimerEvent: {}
+[2.017170] (-) TimerEvent: {}
+[2.032351] (robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target robot_interfaces__py\n'}
+[2.117427] (-) TimerEvent: {}
+[2.219091] (-) TimerEvent: {}
+[2.320353] (-) TimerEvent: {}
+[2.332878] (robot_interfaces) StdoutLine: {'line': b'[ 89%] Built target robot_interfaces__rosidl_generator_py\n'}
+[2.420840] (-) TimerEvent: {}
+[2.522183] (-) TimerEvent: {}
+[2.623612] (-) TimerEvent: {}
+[2.685651] (robot_interfaces) StdoutLine: {'line': b'[ 92%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.706149] (robot_interfaces) StdoutLine: {'line': b'[ 96%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.723890] (-) TimerEvent: {}
+[2.772013] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.824144] (-) TimerEvent: {}
+[2.925942] (-) TimerEvent: {}
+[3.027204] (-) TimerEvent: {}
+[3.128579] (-) TimerEvent: {}
+[3.229722] (-) TimerEvent: {}
+[3.330990] (-) TimerEvent: {}
+[3.432376] (-) TimerEvent: {}
+[3.533955] (-) TimerEvent: {}
+[3.635112] (-) TimerEvent: {}
+[3.736475] (-) TimerEvent: {}
+[3.837884] (-) TimerEvent: {}
+[3.939068] (-) TimerEvent: {}
+[4.040289] (-) TimerEvent: {}
+[4.141597] (-) TimerEvent: {}
+[4.242782] (-) TimerEvent: {}
+[4.344012] (-) TimerEvent: {}
+[4.445515] (-) TimerEvent: {}
+[4.546725] (-) TimerEvent: {}
+[4.647990] (-) TimerEvent: {}
+[4.749356] (-) TimerEvent: {}
+[4.823555] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.830779] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[4.833925] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[4.835863] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[4.849584] (-) TimerEvent: {}
+[4.862565] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[4.870408] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[4.950115] (-) TimerEvent: {}
+[5.051808] (-) TimerEvent: {}
+[5.119771] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[5.153020] (-) TimerEvent: {}
+[5.232831] (robot_interfaces) CommandEnded: {'returncode': 0}
+[5.253289] (-) TimerEvent: {}
+[5.354457] (-) TimerEvent: {}
+[5.455696] (-) TimerEvent: {}
+[5.556898] (-) TimerEvent: {}
+[5.658261] (-) TimerEvent: {}
+[5.761131] (-) TimerEvent: {}
+[5.862948] (-) TimerEvent: {}
+[5.964865] (-) TimerEvent: {}
+[6.066127] (-) TimerEvent: {}
+[6.167410] (-) TimerEvent: {}
+[6.268786] (-) TimerEvent: {}
+[6.369969] (-) TimerEvent: {}
+[6.471314] (-) TimerEvent: {}
+[6.572668] (-) TimerEvent: {}
+[6.674291] (-) TimerEvent: {}
+[6.776140] (-) TimerEvent: {}
+[6.877605] (-) TimerEvent: {}
+[6.890534] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[6.974113] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/Lawnmower-system/build/robot_interfaces'], 'cwd': '/home/pi/Lawnmower-system/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.8.101 55308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/Lawnmower-system/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/Lawnmower-system/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/Lawnmower-system/install/robot_motor_control_py:/home/pi/Lawnmower-system/install/path_nav:/home/pi/Lawnmower-system/install/robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/Lawnmower-system/build/robot_interfaces'), ('SSH_CONNECTION', '192.168.8.101 55308 192.168.8.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/Lawnmower-system/install/path_nav:/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/robot_motor_control_py:/opt/ros/humble')]), 'shell': False}
+[6.988939] (-) TimerEvent: {}
+[7.060185] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.061958] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[7.063136] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.064348] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.065781] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_serial_received.h\n'}
+[7.067129] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[7.068320] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__type_support.h\n'}
+[7.069536] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__struct.h\n'}
+[7.070746] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__functions.h\n'}
+[7.071883] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__functions.c\n'}
+[7.073338] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__functions.c\n'}
+[7.074397] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__struct.h\n'}
+[7.075815] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__functions.h\n'}
+[7.077212] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__type_support.h\n'}
+[7.078684] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.079765] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_send_cmd.h\n'}
+[7.080887] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action\n'}
+[7.082174] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail\n'}
+[7.083326] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.h\n'}
+[7.084299] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__functions.c\n'}
+[7.085499] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__struct.h\n'}
+[7.087075] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__functions.h\n'}
+[7.088431] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/robot_cm_ddepressiated.h\n'}
+[7.089572] (-) TimerEvent: {}
+[7.091760] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.092910] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.094084] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__struct.h\n'}
+[7.095020] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__functions.c\n'}
+[7.095871] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__functions.h\n'}
+[7.096994] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__type_support.h\n'}
+[7.098043] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/robot_cmd.h\n'}
+[7.099178] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[7.100302] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[7.101646] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[7.103097] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.104354] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.105709] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.107663] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[7.109215] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_fastrtps_c.h\n'}
+[7.110105] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[7.111035] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action\n'}
+[7.112615] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail\n'}
+[7.113630] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_fastrtps_c.h\n'}
+[7.114637] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.115826] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.116964] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[7.117912] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.119157] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.120242] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.121744] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[7.122978] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__type_support.c\n'}
+[7.124042] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__type_support.c\n'}
+[7.125283] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_introspection_c.h\n'}
+[7.126527] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_introspection_c.h\n'}
+[7.128348] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.129526] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action\n'}
+[7.130572] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail\n'}
+[7.131785] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.c\n'}
+[7.132728] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_introspection_c.h\n'}
+[7.133589] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.134446] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.135705] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__type_support.c\n'}
+[7.136589] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_introspection_c.h\n'}
+[7.137493] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.140468] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[7.143304] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.144833] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.146033] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_serial_received.hpp\n'}
+[7.147416] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/robot_send_cmd.hpp\n'}
+[7.148639] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[7.149761] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__traits.hpp\n'}
+[7.150869] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__traits.hpp\n'}
+[7.152015] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__struct.hpp\n'}
+[7.153454] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__builder.hpp\n'}
+[7.154497] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__builder.hpp\n'}
+[7.155585] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__struct.hpp\n'}
+[7.157341] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action\n'}
+[7.158655] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail\n'}
+[7.159724] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__struct.hpp\n'}
+[7.161016] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__builder.hpp\n'}
+[7.162194] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__traits.hpp\n'}
+[7.163674] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/robot_cm_ddepressiated.hpp\n'}
+[7.165980] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.167137] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/robot_cmd.hpp\n'}
+[7.170540] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.171696] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__struct.hpp\n'}
+[7.174037] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__traits.hpp\n'}
+[7.175372] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__builder.hpp\n'}
+[7.176654] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.177995] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.179388] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[7.180303] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.181911] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/dds_fastrtps\n'}
+[7.182840] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.183661] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.184606] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action\n'}
+[7.185960] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail\n'}
+[7.186793] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/dds_fastrtps\n'}
+[7.187695] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.188995] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.190021] (-) TimerEvent: {}
+[7.192078] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.193751] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.194916] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps\n'}
+[7.196153] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.197147] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[7.198338] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[7.199410] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[7.200665] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.201818] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__type_support.cpp\n'}
+[7.202839] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.203940] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/robot_send_cmd__type_support.cpp\n'}
+[7.204989] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action\n'}
+[7.205994] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail\n'}
+[7.207455] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.208500] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.cpp\n'}
+[7.209453] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[7.210297] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[7.211107] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.212004] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/robot_cmd__type_support.cpp\n'}
+[7.213374] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.214239] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.216247] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[7.217944] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[7.219140] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.220352] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.223736] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.227255] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.230791] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.234359] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces\n'}
+[7.235718] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg\n'}
+[7.236993] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_robot_serial_received.py\n'}
+[7.238114] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py\n'}
+[7.239158] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_robot_send_cmd_s.c\n'}
+[7.240354] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_robot_send_cmd.py\n'}
+[7.241421] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_robot_serial_received_s.c\n'}
+[7.242551] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.243566] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py\n'}
+[7.244865] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.245988] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.247011] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.248289] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action\n'}
+[7.249601] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_robot_cm_ddepressiated.py\n'}
+[7.250594] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/__init__.py\n'}
+[7.251610] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_robot_cm_ddepressiated_s.c\n'}
+[7.252739] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\n'}
+[7.253846] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.255103] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.256165] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv\n'}
+[7.257203] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_robot_cmd_s.c\n'}
+[7.258135] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py\n'}
+[7.259083] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_robot_cmd.py\n'}
+[7.290349] (-) TimerEvent: {}
+[7.392849] (-) TimerEvent: {}
+[7.494182] (-) TimerEvent: {}
+[7.595466] (-) TimerEvent: {}
+[7.648100] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...\n"}
+[7.650097] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action'...\n"}
+[7.651895] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...\n"}
+[7.653903] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...\n"}
+[7.693610] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.695552] (-) TimerEvent: {}
+[7.700319] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.706649] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.712568] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so\n'}
+[7.716350] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/msg/RobotSerialReceived.idl\n'}
+[7.717731] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/msg/RobotSendCMD.idl\n'}
+[7.719060] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/srv/RobotCMD.idl\n'}
+[7.720321] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/action/RobotCMDdepressiated.idl\n'}
+[7.721845] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/msg/RobotSerialReceived.msg\n'}
+[7.723018] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/msg/RobotSendCMD.msg\n'}
+[7.724230] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/srv/RobotCMD.srv\n'}
+[7.725652] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/srv/RobotCMD_Request.msg\n'}
+[7.726771] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/srv/RobotCMD_Response.msg\n'}
+[7.727650] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/action/RobotCMDdepressiated.action\n'}
+[7.728821] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[7.730451] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[7.731600] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[7.732893] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.734203] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[7.735291] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[7.736616] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[7.737779] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[7.738833] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[7.739703] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[7.740700] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[7.742320] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[7.744668] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.746223] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.748535] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.749896] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.752251] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.753803] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.756245] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.757681] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.759963] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.762416] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.763692] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.766152] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.767604] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.769712] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.771009] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.773478] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.775091] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.776305] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.777640] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.778888] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.780017] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.782441] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.783658] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.785551] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.786808] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[7.787865] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[7.788861] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[7.795857] (-) TimerEvent: {}
+[7.802344] (robot_interfaces) CommandEnded: {'returncode': 0}
+[7.901282] (-) TimerEvent: {}
+[8.008189] (-) TimerEvent: {}
+[8.109568] (-) TimerEvent: {}
+[8.210817] (-) TimerEvent: {}
+[8.312103] (-) TimerEvent: {}
+[8.413389] (-) TimerEvent: {}
+[8.515214] (-) TimerEvent: {}
+[8.616577] (-) TimerEvent: {}
+[8.718972] (-) TimerEvent: {}
+[8.821302] (-) TimerEvent: {}
+[8.922711] (-) TimerEvent: {}
+[9.023948] (-) TimerEvent: {}
+[9.125331] (-) TimerEvent: {}
+[9.226593] (-) TimerEvent: {}
+[9.327838] (-) TimerEvent: {}
+[9.429267] (-) TimerEvent: {}
+[9.530749] (-) TimerEvent: {}
+[9.632717] (-) TimerEvent: {}
+[9.734276] (-) TimerEvent: {}
+[9.825049] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[9.847099] (-) TimerEvent: {}
+[9.848905] (path_nav) JobStarted: {'identifier': 'path_nav'}
+[9.934712] (robot_motor_control_py) JobStarted: {'identifier': 'robot_motor_control_py'}
+[9.952806] (-) TimerEvent: {}
+[10.059574] (-) TimerEvent: {}
+[10.160882] (-) TimerEvent: {}
+[10.262073] (-) TimerEvent: {}
+[10.363234] (-) TimerEvent: {}
+[10.464954] (-) TimerEvent: {}
+[10.568498] (-) TimerEvent: {}
+[10.671085] (-) TimerEvent: {}
+[10.773945] (-) TimerEvent: {}
+[10.877120] (-) TimerEvent: {}
+[10.978461] (-) TimerEvent: {}
+[11.080527] (-) TimerEvent: {}
+[11.181988] (-) TimerEvent: {}
+[11.283426] (-) TimerEvent: {}
+[11.385627] (-) TimerEvent: {}
+[11.488113] (-) TimerEvent: {}
+[11.589879] (-) TimerEvent: {}
+[11.691632] (-) TimerEvent: {}
+[11.793281] (-) TimerEvent: {}
+[11.894776] (-) TimerEvent: {}
+[11.996102] (-) TimerEvent: {}
+[12.097479] (-) TimerEvent: {}
+[12.198764] (-) TimerEvent: {}
+[12.299943] (-) TimerEvent: {}
+[12.401423] (-) TimerEvent: {}
+[12.502658] (-) TimerEvent: {}
+[12.603924] (-) TimerEvent: {}
+[12.705222] (-) TimerEvent: {}
+[12.807433] (-) TimerEvent: {}
+[12.908812] (-) TimerEvent: {}
+[13.010219] (-) TimerEvent: {}
+[13.111516] (-) TimerEvent: {}
+[13.212867] (-) TimerEvent: {}
+[13.314100] (-) TimerEvent: {}
+[13.415499] (-) TimerEvent: {}
+[13.522791] (-) TimerEvent: {}
+[13.631640] (-) TimerEvent: {}
+[13.733233] (-) TimerEvent: {}
+[13.834453] (-) TimerEvent: {}
+[13.935719] (-) TimerEvent: {}
+[14.037146] (-) TimerEvent: {}
+[14.139518] (-) TimerEvent: {}
+[14.240896] (-) TimerEvent: {}
+[14.342274] (-) TimerEvent: {}
+[14.443769] (-) TimerEvent: {}
+[14.545289] (-) TimerEvent: {}
+[14.646550] (-) TimerEvent: {}
+[14.747864] (-) TimerEvent: {}
+[14.849400] (-) TimerEvent: {}
+[14.950773] (-) TimerEvent: {}
+[15.052928] (-) TimerEvent: {}
+[15.154319] (-) TimerEvent: {}
+[15.255630] (-) TimerEvent: {}
+[15.357751] (-) TimerEvent: {}
+[15.459248] (-) TimerEvent: {}
+[15.562149] (-) TimerEvent: {}
+[15.663395] (-) TimerEvent: {}
+[15.764899] (-) TimerEvent: {}
+[15.867832] (-) TimerEvent: {}
+[15.969299] (-) TimerEvent: {}
+[16.070748] (-) TimerEvent: {}
+[16.171947] (-) TimerEvent: {}
+[16.273397] (-) TimerEvent: {}
+[16.374642] (-) TimerEvent: {}
+[16.476122] (-) TimerEvent: {}
+[16.577509] (-) TimerEvent: {}
+[16.678808] (-) TimerEvent: {}
+[16.780153] (-) TimerEvent: {}
+[16.881632] (-) TimerEvent: {}
+[16.983893] (-) TimerEvent: {}
+[17.087496] (-) TimerEvent: {}
+[17.188935] (-) TimerEvent: {}
+[17.291784] (-) TimerEvent: {}
+[17.394718] (-) TimerEvent: {}
+[17.497712] (-) TimerEvent: {}
+[17.600473] (-) TimerEvent: {}
+[17.703597] (-) TimerEvent: {}
+[17.810699] (-) TimerEvent: {}
+[17.913863] (-) TimerEvent: {}
+[18.017016] (-) TimerEvent: {}
+[18.119660] (-) TimerEvent: {}
+[18.222867] (-) TimerEvent: {}
+[18.326022] (-) TimerEvent: {}
+[18.430119] (-) TimerEvent: {}
+[18.534115] (-) TimerEvent: {}
+[18.636827] (-) TimerEvent: {}
+[18.739516] (-) TimerEvent: {}
+[18.842584] (-) TimerEvent: {}
+[18.949197] (-) TimerEvent: {}
+[19.052042] (-) TimerEvent: {}
+[19.155093] (-) TimerEvent: {}
+[19.258344] (-) TimerEvent: {}
+[19.361784] (-) TimerEvent: {}
+[19.465230] (-) TimerEvent: {}
+[19.568029] (-) TimerEvent: {}
+[19.670995] (-) TimerEvent: {}
+[19.773807] (-) TimerEvent: {}
+[19.876577] (-) TimerEvent: {}
+[19.979467] (-) TimerEvent: {}
+[20.082602] (-) TimerEvent: {}
+[20.186727] (-) TimerEvent: {}
+[20.289653] (-) TimerEvent: {}
+[20.392624] (-) TimerEvent: {}
+[20.495813] (-) TimerEvent: {}
+[20.599721] (-) TimerEvent: {}
+[20.704260] (-) TimerEvent: {}
+[20.808577] (-) TimerEvent: {}
+[20.912770] (-) TimerEvent: {}
+[21.015694] (-) TimerEvent: {}
+[21.124609] (-) TimerEvent: {}
+[21.227189] (-) TimerEvent: {}
+[21.330016] (-) TimerEvent: {}
+[21.433790] (-) TimerEvent: {}
+[21.537519] (-) TimerEvent: {}
+[21.641222] (-) TimerEvent: {}
+[21.745413] (-) TimerEvent: {}
+[21.818327] (path_nav) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/path_nav', 'build', '--build-base', '/home/pi/Lawnmower-system/build/path_nav/build', 'install', '--record', '/home/pi/Lawnmower-system/build/path_nav/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/path_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.8.101 55308 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/Lawnmower-system/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/Lawnmower-system/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/Lawnmower-system/install/robot_motor_control_py:/home/pi/Lawnmower-system/install/path_nav:/home/pi/Lawnmower-system/install/robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/Lawnmower-system/build/path_nav', 'SSH_CONNECTION': '192.168.8.101 55308 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/Lawnmower-system/build/path_nav/prefix_override:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/path_nav'}, 'shell': False}
+[21.845640] (-) TimerEvent: {}
+[21.954073] (robot_motor_control_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/robot_motor_control_py', 'build', '--build-base', '/home/pi/Lawnmower-system/build/robot_motor_control_py/build', 'install', '--record', '/home/pi/Lawnmower-system/build/robot_motor_control_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.8.101 55308 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/Lawnmower-system/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/Lawnmower-system/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/Lawnmower-system/install/robot_motor_control_py:/home/pi/Lawnmower-system/install/path_nav:/home/pi/Lawnmower-system/install/robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/Lawnmower-system/build/robot_motor_control_py', 'SSH_CONNECTION': '192.168.8.101 55308 192.168.8.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/Lawnmower-system/build/robot_motor_control_py/prefix_override:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/path_nav'}, 'shell': False}
+[21.968914] (-) TimerEvent: {}
+[22.073527] (-) TimerEvent: {}
+[22.176359] (-) TimerEvent: {}
+[22.280965] (-) TimerEvent: {}
+[22.384081] (-) TimerEvent: {}
+[22.487037] (-) TimerEvent: {}
+[22.590503] (-) TimerEvent: {}
+[22.692921] (-) TimerEvent: {}
+[22.795922] (-) TimerEvent: {}
+[22.898964] (-) TimerEvent: {}
+[23.001994] (-) TimerEvent: {}
+[23.105207] (-) TimerEvent: {}
+[23.208060] (-) TimerEvent: {}
+[23.311307] (-) TimerEvent: {}
+[23.415099] (-) TimerEvent: {}
+[23.517960] (-) TimerEvent: {}
+[23.621023] (-) TimerEvent: {}
+[23.724618] (-) TimerEvent: {}
+[23.827729] (-) TimerEvent: {}
+[23.931328] (-) TimerEvent: {}
+[24.035346] (-) TimerEvent: {}
+[24.139220] (-) TimerEvent: {}
+[24.242227] (-) TimerEvent: {}
+[24.345105] (-) TimerEvent: {}
+[24.448304] (-) TimerEvent: {}
+[24.551513] (-) TimerEvent: {}
+[24.654589] (-) TimerEvent: {}
+[24.757871] (-) TimerEvent: {}
+[24.860922] (-) TimerEvent: {}
+[24.963708] (-) TimerEvent: {}
+[25.067206] (-) TimerEvent: {}
+[25.170647] (-) TimerEvent: {}
+[25.274403] (-) TimerEvent: {}
+[25.286029] (path_nav) StdoutLine: {'line': b'running egg_info\n'}
+[25.294588] (path_nav) StdoutLine: {'line': b'writing ../../../build/path_nav/path_nav.egg-info/PKG-INFO\n'}
+[25.297354] (path_nav) StdoutLine: {'line': b'writing dependency_links to ../../../build/path_nav/path_nav.egg-info/dependency_links.txt\n'}
+[25.299555] (path_nav) StdoutLine: {'line': b'writing entry points to ../../../build/path_nav/path_nav.egg-info/entry_points.txt\n'}
+[25.302813] (path_nav) StdoutLine: {'line': b'writing requirements to ../../../build/path_nav/path_nav.egg-info/requires.txt\n'}
+[25.304331] (path_nav) StdoutLine: {'line': b'writing top-level names to ../../../build/path_nav/path_nav.egg-info/top_level.txt\n'}
+[25.322093] (path_nav) StdoutLine: {'line': b"reading manifest file '../../../build/path_nav/path_nav.egg-info/SOURCES.txt'\n"}
+[25.332590] (path_nav) StdoutLine: {'line': b"writing manifest file '../../../build/path_nav/path_nav.egg-info/SOURCES.txt'\n"}
+[25.335060] (path_nav) StdoutLine: {'line': b'running build\n'}
+[25.336635] (path_nav) StdoutLine: {'line': b'running build_py\n'}
+[25.338384] (path_nav) StdoutLine: {'line': b'copying path_nav/lds.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav\n'}
+[25.340804] (path_nav) StdoutLine: {'line': b'copying path_nav/mower.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav\n'}
+[25.344358] (path_nav) StdoutLine: {'line': b'copying path_nav/lidar_sim.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav\n'}
+[25.348700] (path_nav) StdoutLine: {'line': b'running install\n'}
+[25.352633] (path_nav) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[25.354694] (path_nav) StderrLine: {'line': b'  warnings.warn(\n'}
+[25.356225] (path_nav) StdoutLine: {'line': b'running install_lib\n'}
+[25.361662] (path_nav) StdoutLine: {'line': b'copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/lds.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav\n'}
+[25.365724] (path_nav) StdoutLine: {'line': b'copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/mower.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav\n'}
+[25.369401] (path_nav) StdoutLine: {'line': b'copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/lidar_sim.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav\n'}
+[25.374641] (-) TimerEvent: {}
+[25.378333] (path_nav) StdoutLine: {'line': b'byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/lds.py to lds.cpython-310.pyc\n'}
+[25.386296] (path_nav) StdoutLine: {'line': b'byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/mower.py to mower.cpython-310.pyc\n'}
+[25.433815] (path_nav) StdoutLine: {'line': b'byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/lidar_sim.py to lidar_sim.cpython-310.pyc\n'}
+[25.453761] (path_nav) StdoutLine: {'line': b'running install_data\n'}
+[25.459050] (path_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.475063] (path_nav) StdoutLine: {'line': b"removing '/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.477073] (-) TimerEvent: {}
+[25.480732] (path_nav) StdoutLine: {'line': b'Copying ../../../build/path_nav/path_nav.egg-info to /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav-0.0.0-py3.10.egg-info\n'}
+[25.497852] (path_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[25.547348] (robot_motor_control_py) StdoutLine: {'line': b'running egg_info\n'}
+[25.554168] (robot_motor_control_py) StdoutLine: {'line': b'writing ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/PKG-INFO\n'}
+[25.558856] (robot_motor_control_py) StdoutLine: {'line': b'writing dependency_links to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/dependency_links.txt\n'}
+[25.562683] (robot_motor_control_py) StdoutLine: {'line': b'writing entry points to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/entry_points.txt\n'}
+[25.565275] (robot_motor_control_py) StdoutLine: {'line': b'writing requirements to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/requires.txt\n'}
+[25.567128] (robot_motor_control_py) StdoutLine: {'line': b'writing top-level names to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/top_level.txt\n'}
+[25.577355] (-) TimerEvent: {}
+[25.585938] (robot_motor_control_py) StdoutLine: {'line': b"reading manifest file '../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/SOURCES.txt'\n"}
+[25.601754] (robot_motor_control_py) StdoutLine: {'line': b"writing manifest file '../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/SOURCES.txt'\n"}
+[25.605836] (robot_motor_control_py) StdoutLine: {'line': b'running build\n'}
+[25.609237] (robot_motor_control_py) StdoutLine: {'line': b'running build_py\n'}
+[25.611113] (robot_motor_control_py) StdoutLine: {'line': b'copying robot_motor_control_py/robot_bridge.py -> /home/pi/Lawnmower-system/build/robot_motor_control_py/build/lib/robot_motor_control_py\n'}
+[25.617414] (robot_motor_control_py) StdoutLine: {'line': b'running install\n'}
+[25.620172] (robot_motor_control_py) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[25.624804] (robot_motor_control_py) StderrLine: {'line': b'  warnings.warn(\n'}
+[25.627784] (robot_motor_control_py) StdoutLine: {'line': b'running install_lib\n'}
+[25.633183] (robot_motor_control_py) StdoutLine: {'line': b'copying /home/pi/Lawnmower-system/build/robot_motor_control_py/build/lib/robot_motor_control_py/robot_bridge.py -> /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py\n'}
+[25.650642] (robot_motor_control_py) StdoutLine: {'line': b'byte-compiling /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py/robot_bridge.py to robot_bridge.cpython-310.pyc\n'}
+[25.663111] (robot_motor_control_py) StdoutLine: {'line': b'running install_data\n'}
+[25.672199] (robot_motor_control_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.677787] (-) TimerEvent: {}
+[25.694211] (robot_motor_control_py) StdoutLine: {'line': b"removing '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.707923] (robot_motor_control_py) StdoutLine: {'line': b'Copying ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py-0.0.0-py3.10.egg-info\n'}
+[25.719095] (path_nav) StdoutLine: {'line': b'Installing robot_nav script to /home/pi/Lawnmower-system/install/path_nav/lib/path_nav\n'}
+[25.726373] (path_nav) StdoutLine: {'line': b"writing list of installed files to '/home/pi/Lawnmower-system/build/path_nav/install.log'\n"}
+[25.735918] (robot_motor_control_py) StdoutLine: {'line': b'running install_scripts\n'}
+[25.778102] (-) TimerEvent: {}
+[25.879912] (-) TimerEvent: {}
+[25.981558] (-) TimerEvent: {}
+[26.007653] (robot_motor_control_py) StdoutLine: {'line': b'Installing robot_bridge script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py\n'}
+[26.009684] (robot_motor_control_py) StdoutLine: {'line': b'Installing robot_path_provider_client script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py\n'}
+[26.011625] (robot_motor_control_py) StdoutLine: {'line': b'Installing robot_user_client script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py\n'}
+[26.018548] (robot_motor_control_py) StdoutLine: {'line': b"writing list of installed files to '/home/pi/Lawnmower-system/build/robot_motor_control_py/install.log'\n"}
+[26.038301] (path_nav) CommandEnded: {'returncode': 0}
+[26.084694] (-) TimerEvent: {}
+[26.187199] (-) TimerEvent: {}
+[26.249390] (path_nav) JobEnded: {'identifier': 'path_nav', 'rc': 0}
+[26.263767] (robot_motor_control_py) CommandEnded: {'returncode': 0}
+[26.287387] (-) TimerEvent: {}
+[26.383033] (robot_motor_control_py) JobEnded: {'identifier': 'robot_motor_control_py', 'rc': 0}
+[26.392101] (-) TimerEvent: {}
+[26.393548] (-) EventReactorShutdown: {}

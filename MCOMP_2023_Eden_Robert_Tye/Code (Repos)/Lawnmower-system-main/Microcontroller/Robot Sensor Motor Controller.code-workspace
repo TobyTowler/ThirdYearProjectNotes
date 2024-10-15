@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "Robot Sensor Motor Controller"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"random": "cpp",
+			"*.tcc": "cpp"
+		},
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#3b5cd9",
+			"activityBar.background": "#3b5cd9",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#e57a90",
+			"activityBarBadge.foreground": "#15202b",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#3b5cd9",
+			"statusBar.background": "#2544bc",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#3b5cd9",
+			"statusBarItem.remoteBackground": "#2544bc",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#2544bc",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#2544bc99",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#2544bc"
+	}
+}

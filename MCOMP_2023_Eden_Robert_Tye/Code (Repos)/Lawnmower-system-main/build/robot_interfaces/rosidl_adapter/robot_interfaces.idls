@@ -1,0 +1,4 @@
+/home/pi/Lawnmower-system/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/RobotSerialReceived.idl
+/home/pi/Lawnmower-system/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/RobotSendCMD.idl
+/home/pi/Lawnmower-system/build/robot_interfaces/rosidl_adapter/robot_interfaces:srv/RobotCMD.idl
+/home/pi/Lawnmower-system/build/robot_interfaces/rosidl_adapter/robot_interfaces:action/RobotCMDdepressiated.idl

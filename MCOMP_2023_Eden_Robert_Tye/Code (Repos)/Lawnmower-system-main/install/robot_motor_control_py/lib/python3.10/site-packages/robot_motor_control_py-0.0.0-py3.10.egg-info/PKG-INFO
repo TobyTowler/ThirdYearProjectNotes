@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robot-motor-control-py
+Version: 0.0.0
+Summary: An action server node that acts as a bridge for communication with the Robots microcontroller via a serial connection
+Home-page: UNKNOWN
+Maintainer: robert
+Maintainer-email: RobertLStevenson01@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

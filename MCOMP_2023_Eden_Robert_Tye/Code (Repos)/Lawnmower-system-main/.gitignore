@@ -1,0 +1,40 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+ros_mower_robot_ws/log/
+ros_mower_robot_ws/build/
+ros_mower_robot_ws/install/
+ros_mower_robot_ws/.vscode/
+ros_mower_robot_ws/log/latest_build
+ros_mower_robot_ws/src/robot_motor_control_py/robot_motor_control_py/Sample_Co_ordinates.py
+ros_mower_robot_ws/src/robot_motor_control_py/Pathing/Sample_Co_ordinates.py

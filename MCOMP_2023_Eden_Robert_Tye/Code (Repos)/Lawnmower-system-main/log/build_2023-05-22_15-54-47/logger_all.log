@@ -1,0 +1,1176 @@
+[2.254s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.255s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8bfb2320>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8c778130>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8c778130>>)
+[2.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.389s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/Lawnmower-system'
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extensions ['ignore', 'ignore_ament_install']
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extension 'ignore'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extension 'ignore_ament_install'
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extensions ['colcon_pkg']
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extension 'colcon_pkg'
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extensions ['colcon_meta']
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extension 'colcon_meta'
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extensions ['ros']
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extension 'ros'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extensions ['cmake', 'python']
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extension 'cmake'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extension 'python'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extensions ['python_setup_py']
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller) by extension 'python_setup_py'
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extensions ['ignore', 'ignore_ament_install']
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extension 'ignore'
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extension 'ignore_ament_install'
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extensions ['colcon_pkg']
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extension 'colcon_pkg'
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extensions ['colcon_meta']
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extension 'colcon_meta'
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extensions ['ros']
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extension 'ros'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extensions ['cmake', 'python']
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extension 'cmake'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extension 'python'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extensions ['python_setup_py']
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project) by extension 'python_setup_py'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extensions ['ignore', 'ignore_ament_install']
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extension 'ignore'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extension 'ignore_ament_install'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extensions ['colcon_pkg']
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extension 'colcon_pkg'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extensions ['colcon_meta']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extension 'colcon_meta'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extensions ['ros']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extension 'ros'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extensions ['cmake', 'python']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extension 'cmake'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extension 'python'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extensions ['python_setup_py']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/include) by extension 'python_setup_py'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extensions ['ignore', 'ignore_ament_install']
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extension 'ignore'
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extension 'ignore_ament_install'
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extensions ['colcon_pkg']
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extension 'colcon_pkg'
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extensions ['colcon_meta']
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extension 'colcon_meta'
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extensions ['ros']
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extension 'ros'
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extensions ['cmake', 'python']
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extension 'cmake'
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extension 'python'
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extensions ['python_setup_py']
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/lib) by extension 'python_setup_py'
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extensions ['ignore', 'ignore_ament_install']
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extension 'ignore'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extension 'ignore_ament_install'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extensions ['colcon_pkg']
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extension 'colcon_pkg'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extensions ['colcon_meta']
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extension 'colcon_meta'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extensions ['ros']
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extension 'ros'
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extensions ['cmake', 'python']
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extension 'cmake'
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extension 'python'
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extensions ['python_setup_py']
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/src) by extension 'python_setup_py'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extensions ['ignore', 'ignore_ament_install']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extension 'ignore'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extension 'ignore_ament_install'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extensions ['colcon_pkg']
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extension 'colcon_pkg'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extensions ['colcon_meta']
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extension 'colcon_meta'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extensions ['ros']
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extension 'ros'
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extensions ['cmake', 'python']
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extension 'cmake'
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extension 'python'
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extensions ['python_setup_py']
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/BNO085 IMU Test Project/test) by extension 'python_setup_py'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extensions ['ignore', 'ignore_ament_install']
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extension 'ignore'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extension 'ignore_ament_install'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extensions ['colcon_pkg']
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extension 'colcon_pkg'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extensions ['colcon_meta']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extension 'colcon_meta'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extensions ['ros']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extension 'ros'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extensions ['cmake', 'python']
+[2.458s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extension 'cmake'
+[2.458s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extension 'python'
+[2.458s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extensions ['python_setup_py']
+[2.458s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/ICM-20948 IMU Sensor Fusion Experiment) by extension 'python_setup_py'
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extensions ['ignore', 'ignore_ament_install']
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extension 'ignore'
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extension 'ignore_ament_install'
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extensions ['colcon_pkg']
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extension 'colcon_pkg'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extensions ['colcon_meta']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extension 'colcon_meta'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extensions ['ros']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extension 'ros'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extensions ['cmake', 'python']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extension 'cmake'
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extension 'python'
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extensions ['python_setup_py']
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration) by extension 'python_setup_py'
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extensions ['ignore', 'ignore_ament_install']
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extension 'ignore'
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extension 'ignore_ament_install'
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extensions ['colcon_pkg']
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extension 'colcon_pkg'
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extensions ['colcon_meta']
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extension 'colcon_meta'
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extensions ['ros']
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extension 'ros'
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extensions ['cmake', 'python']
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extension 'cmake'
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extension 'python'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extensions ['python_setup_py']
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/include) by extension 'python_setup_py'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extensions ['ignore', 'ignore_ament_install']
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extension 'ignore'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extension 'ignore_ament_install'
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extensions ['colcon_pkg']
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extension 'colcon_pkg'
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extensions ['colcon_meta']
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extension 'colcon_meta'
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extensions ['ros']
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extension 'ros'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extensions ['cmake', 'python']
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extension 'cmake'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extension 'python'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extensions ['python_setup_py']
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/lib) by extension 'python_setup_py'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extensions ['ignore', 'ignore_ament_install']
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extension 'ignore'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extension 'ignore_ament_install'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extensions ['colcon_pkg']
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extension 'colcon_pkg'
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extensions ['colcon_meta']
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extension 'colcon_meta'
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extensions ['ros']
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extension 'ros'
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extensions ['cmake', 'python']
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extension 'cmake'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extension 'python'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extensions ['python_setup_py']
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/src) by extension 'python_setup_py'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extensions ['ignore', 'ignore_ament_install']
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extension 'ignore'
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extension 'ignore_ament_install'
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extensions ['colcon_pkg']
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extension 'colcon_pkg'
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extensions ['colcon_meta']
+[2.471s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extension 'colcon_meta'
+[2.471s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extensions ['ros']
+[2.471s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extension 'ros'
+[2.471s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extensions ['cmake', 'python']
+[2.471s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extension 'cmake'
+[2.471s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extension 'python'
+[2.472s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extensions ['python_setup_py']
+[2.472s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Calibration/test) by extension 'python_setup_py'
+[2.472s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extensions ['ignore', 'ignore_ament_install']
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extension 'ignore'
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extension 'ignore_ament_install'
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extensions ['colcon_pkg']
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extension 'colcon_pkg'
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extensions ['colcon_meta']
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extension 'colcon_meta'
+[2.474s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extensions ['ros']
+[2.474s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extension 'ros'
+[2.474s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extensions ['cmake', 'python']
+[2.474s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extension 'cmake'
+[2.474s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extension 'python'
+[2.474s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extensions ['python_setup_py']
+[2.475s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment) by extension 'python_setup_py'
+[2.475s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extensions ['ignore', 'ignore_ament_install']
+[2.475s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extension 'ignore'
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extension 'ignore_ament_install'
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extensions ['colcon_pkg']
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extension 'colcon_pkg'
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extensions ['colcon_meta']
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extension 'colcon_meta'
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extensions ['ros']
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extension 'ros'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extensions ['cmake', 'python']
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extension 'cmake'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extension 'python'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extensions ['python_setup_py']
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/include) by extension 'python_setup_py'
+[2.478s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extensions ['ignore', 'ignore_ament_install']
+[2.478s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extension 'ignore'
+[2.478s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extension 'ignore_ament_install'
+[2.478s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extensions ['colcon_pkg']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extension 'colcon_pkg'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extensions ['colcon_meta']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extension 'colcon_meta'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extensions ['ros']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extension 'ros'
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extensions ['cmake', 'python']
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extension 'cmake'
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extension 'python'
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extensions ['python_setup_py']
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/lib) by extension 'python_setup_py'
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extensions ['ignore', 'ignore_ament_install']
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extension 'ignore'
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extension 'ignore_ament_install'
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extensions ['colcon_pkg']
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extension 'colcon_pkg'
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extensions ['colcon_meta']
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extension 'colcon_meta'
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extensions ['ros']
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extension 'ros'
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extensions ['cmake', 'python']
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extension 'cmake'
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extension 'python'
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extensions ['python_setup_py']
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/src) by extension 'python_setup_py'
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extensions ['ignore', 'ignore_ament_install']
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extension 'ignore'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extension 'ignore_ament_install'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extensions ['colcon_pkg']
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extension 'colcon_pkg'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extensions ['colcon_meta']
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extension 'colcon_meta'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extensions ['ros']
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extension 'ros'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extensions ['cmake', 'python']
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extension 'cmake'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extension 'python'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extensions ['python_setup_py']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/IMU Sensor Fusion Experiment/test) by extension 'python_setup_py'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extensions ['ignore', 'ignore_ament_install']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extension 'ignore'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extension 'ignore_ament_install'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extensions ['colcon_pkg']
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extension 'colcon_pkg'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extensions ['colcon_meta']
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extension 'colcon_meta'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extensions ['ros']
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extension 'ros'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extensions ['cmake', 'python']
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extension 'cmake'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extension 'python'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extensions ['python_setup_py']
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test) by extension 'python_setup_py'
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extensions ['ignore', 'ignore_ament_install']
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extension 'ignore'
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extension 'ignore_ament_install'
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extensions ['colcon_pkg']
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extension 'colcon_pkg'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extensions ['colcon_meta']
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extension 'colcon_meta'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extensions ['ros']
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extension 'ros'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extensions ['cmake', 'python']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extension 'cmake'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extension 'python'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extensions ['python_setup_py']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot) by extension 'python_setup_py'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extensions ['ignore', 'ignore_ament_install']
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extension 'ignore'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extension 'ignore_ament_install'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extensions ['colcon_pkg']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extension 'colcon_pkg'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extensions ['colcon_meta']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extension 'colcon_meta'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extensions ['ros']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extension 'ros'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extensions ['cmake', 'python']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extension 'cmake'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extension 'python'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extensions ['python_setup_py']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests) by extension 'python_setup_py'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extensions ['ignore', 'ignore_ament_install']
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extension 'ignore'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extension 'ignore_ament_install'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extensions ['colcon_pkg']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extension 'colcon_pkg'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extensions ['colcon_meta']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extension 'colcon_meta'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extensions ['ros']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extension 'ros'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extensions ['cmake', 'python']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extension 'cmake'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extension 'python'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extensions ['python_setup_py']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/1 to 20 Gearbox tests) by extension 'python_setup_py'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extensions ['ignore', 'ignore_ament_install']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extension 'ignore'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extension 'ignore_ament_install'
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extensions ['colcon_pkg']
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extension 'colcon_pkg'
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extensions ['colcon_meta']
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extension 'colcon_meta'
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extensions ['ros']
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extension 'ros'
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extensions ['cmake', 'python']
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extension 'cmake'
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extension 'python'
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extensions ['python_setup_py']
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/Serial Plot/PWM-RPM Relationship Tests/45 to 1 Gearbox tests) by extension 'python_setup_py'
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extensions ['ignore', 'ignore_ament_install']
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extension 'ignore'
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extension 'ignore_ament_install'
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extensions ['colcon_pkg']
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extension 'colcon_pkg'
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extensions ['colcon_meta']
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extension 'colcon_meta'
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extensions ['ros']
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extension 'ros'
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extensions ['cmake', 'python']
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extension 'cmake'
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extension 'python'
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extensions ['python_setup_py']
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/include) by extension 'python_setup_py'
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extensions ['ignore', 'ignore_ament_install']
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extension 'ignore'
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extension 'ignore_ament_install'
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extensions ['colcon_pkg']
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extension 'colcon_pkg'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extensions ['colcon_meta']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extension 'colcon_meta'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extensions ['ros']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extension 'ros'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extensions ['cmake', 'python']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extension 'cmake'
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extension 'python'
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extensions ['python_setup_py']
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/lib) by extension 'python_setup_py'
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extensions ['ignore', 'ignore_ament_install']
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extension 'ignore'
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extension 'ignore_ament_install'
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extensions ['colcon_pkg']
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extension 'colcon_pkg'
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extensions ['colcon_meta']
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extension 'colcon_meta'
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extensions ['ros']
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extension 'ros'
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extensions ['cmake', 'python']
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extension 'cmake'
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extension 'python'
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extensions ['python_setup_py']
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/src) by extension 'python_setup_py'
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extensions ['ignore', 'ignore_ament_install']
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extension 'ignore'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extension 'ignore_ament_install'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extensions ['colcon_pkg']
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extension 'colcon_pkg'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extensions ['colcon_meta']
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extension 'colcon_meta'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extensions ['ros']
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extension 'ros'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extensions ['cmake', 'python']
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extension 'cmake'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extension 'python'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extensions ['python_setup_py']
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor PID Control Setup Test/test) by extension 'python_setup_py'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extensions ['ignore', 'ignore_ament_install']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extension 'ignore'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extension 'ignore_ament_install'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extensions ['colcon_pkg']
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extension 'colcon_pkg'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extensions ['colcon_meta']
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extension 'colcon_meta'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extensions ['ros']
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extension 'ros'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extensions ['cmake', 'python']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extension 'cmake'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extension 'python'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extensions ['python_setup_py']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program) by extension 'python_setup_py'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extensions ['ignore', 'ignore_ament_install']
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extension 'ignore'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extension 'ignore_ament_install'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extensions ['colcon_pkg']
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extension 'colcon_pkg'
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extensions ['colcon_meta']
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extension 'colcon_meta'
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extensions ['ros']
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extension 'ros'
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extensions ['cmake', 'python']
+[2.517s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extension 'cmake'
+[2.517s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extension 'python'
+[2.517s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extensions ['python_setup_py']
+[2.517s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/include) by extension 'python_setup_py'
+[2.517s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extensions ['ignore', 'ignore_ament_install']
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extension 'ignore'
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extension 'ignore_ament_install'
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extensions ['colcon_pkg']
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extension 'colcon_pkg'
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extensions ['colcon_meta']
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extension 'colcon_meta'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extensions ['ros']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extension 'ros'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extensions ['cmake', 'python']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extension 'cmake'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extension 'python'
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extensions ['python_setup_py']
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/lib) by extension 'python_setup_py'
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extensions ['ignore', 'ignore_ament_install']
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extension 'ignore'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extension 'ignore_ament_install'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extensions ['colcon_pkg']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extension 'colcon_pkg'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extensions ['colcon_meta']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extension 'colcon_meta'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extensions ['ros']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extension 'ros'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extensions ['cmake', 'python']
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extension 'cmake'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extension 'python'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extensions ['python_setup_py']
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/src) by extension 'python_setup_py'
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extensions ['ignore', 'ignore_ament_install']
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extension 'ignore'
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extension 'ignore_ament_install'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extensions ['colcon_pkg']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extension 'colcon_pkg'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extensions ['colcon_meta']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extension 'colcon_meta'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extensions ['ros']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extension 'ros'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extensions ['cmake', 'python']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extension 'cmake'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extension 'python'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extensions ['python_setup_py']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Motor Test Program/test) by extension 'python_setup_py'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extensions ['ignore', 'ignore_ament_install']
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extension 'ignore'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extension 'ignore_ament_install'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extensions ['colcon_pkg']
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extension 'colcon_pkg'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extensions ['colcon_meta']
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extension 'colcon_meta'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extensions ['ros']
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extension 'ros'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extensions ['cmake', 'python']
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extension 'cmake'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extension 'python'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extensions ['python_setup_py']
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller) by extension 'python_setup_py'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extensions ['ignore', 'ignore_ament_install']
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extension 'ignore'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extension 'ignore_ament_install'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extensions ['colcon_pkg']
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extension 'colcon_pkg'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extensions ['colcon_meta']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extension 'colcon_meta'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extensions ['ros']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extension 'ros'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extensions ['cmake', 'python']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extension 'cmake'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extension 'python'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extensions ['python_setup_py']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/include) by extension 'python_setup_py'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extensions ['ignore', 'ignore_ament_install']
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extension 'ignore'
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extension 'ignore_ament_install'
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extensions ['colcon_pkg']
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extension 'colcon_pkg'
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extensions ['colcon_meta']
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extension 'colcon_meta'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extensions ['ros']
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extension 'ros'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extensions ['cmake', 'python']
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extension 'cmake'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extension 'python'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extensions ['python_setup_py']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/lib) by extension 'python_setup_py'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extensions ['ignore', 'ignore_ament_install']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extension 'ignore'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extension 'ignore_ament_install'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extensions ['colcon_pkg']
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extension 'colcon_pkg'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extensions ['colcon_meta']
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extension 'colcon_meta'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extensions ['ros']
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extension 'ros'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extensions ['cmake', 'python']
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extension 'cmake'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extension 'python'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extensions ['python_setup_py']
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src) by extension 'python_setup_py'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extensions ['ignore', 'ignore_ament_install']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extension 'ignore'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extension 'ignore_ament_install'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extensions ['colcon_pkg']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extension 'colcon_pkg'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extensions ['colcon_meta']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extension 'colcon_meta'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extensions ['ros']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extension 'ros'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extensions ['cmake', 'python']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extension 'cmake'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extension 'python'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extensions ['python_setup_py']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/GeneralUtility) by extension 'python_setup_py'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extensions ['ignore', 'ignore_ament_install']
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extension 'ignore'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extension 'ignore_ament_install'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extensions ['colcon_pkg']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extension 'colcon_pkg'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extensions ['colcon_meta']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extension 'colcon_meta'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extensions ['ros']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extension 'ros'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extensions ['cmake', 'python']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extension 'cmake'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extension 'python'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extensions ['python_setup_py']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot) by extension 'python_setup_py'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extensions ['ignore', 'ignore_ament_install']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extension 'ignore'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extension 'ignore_ament_install'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extensions ['colcon_pkg']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extension 'colcon_pkg'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extensions ['colcon_meta']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extension 'colcon_meta'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extensions ['ros']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extension 'ros'
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extensions ['cmake', 'python']
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extension 'cmake'
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extension 'python'
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extensions ['python_setup_py']
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Communication) by extension 'python_setup_py'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extensions ['ignore', 'ignore_ament_install']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extension 'ignore'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extension 'ignore_ament_install'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extensions ['colcon_pkg']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extension 'colcon_pkg'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extensions ['colcon_meta']
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extension 'colcon_meta'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extensions ['ros']
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extension 'ros'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extensions ['cmake', 'python']
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extension 'cmake'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extension 'python'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extensions ['python_setup_py']
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/IMU) by extension 'python_setup_py'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extensions ['ignore', 'ignore_ament_install']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extension 'ignore'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extension 'ignore_ament_install'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extensions ['colcon_pkg']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extension 'colcon_pkg'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extensions ['colcon_meta']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extension 'colcon_meta'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extensions ['ros']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extension 'ros'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extensions ['cmake', 'python']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extension 'cmake'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extension 'python'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extensions ['python_setup_py']
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Motors) by extension 'python_setup_py'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extensions ['ignore', 'ignore_ament_install']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extension 'ignore'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extension 'ignore_ament_install'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extensions ['colcon_pkg']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extension 'colcon_pkg'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extensions ['colcon_meta']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extension 'colcon_meta'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extensions ['ros']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extension 'ros'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extensions ['cmake', 'python']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extension 'cmake'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extension 'python'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extensions ['python_setup_py']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/src/Robot/Utility) by extension 'python_setup_py'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extensions ['ignore', 'ignore_ament_install']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extension 'ignore'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extension 'ignore_ament_install'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extensions ['colcon_pkg']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extension 'colcon_pkg'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extensions ['colcon_meta']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extension 'colcon_meta'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extensions ['ros']
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extension 'ros'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extensions ['cmake', 'python']
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extension 'cmake'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extension 'python'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extensions ['python_setup_py']
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller/test) by extension 'python_setup_py'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extensions ['ignore', 'ignore_ament_install']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extension 'ignore'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extension 'ignore_ament_install'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extensions ['colcon_pkg']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extension 'colcon_pkg'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extensions ['colcon_meta']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extension 'colcon_meta'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extensions ['ros']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extension 'ros'
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extensions ['cmake', 'python']
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extension 'cmake'
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extension 'python'
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extensions ['python_setup_py']
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP) by extension 'python_setup_py'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extensions ['ignore', 'ignore_ament_install']
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extension 'ignore'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extension 'ignore_ament_install'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extensions ['colcon_pkg']
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extension 'colcon_pkg'
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extensions ['colcon_meta']
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extension 'colcon_meta'
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extensions ['ros']
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extension 'ros'
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extensions ['cmake', 'python']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extension 'cmake'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extension 'python'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extensions ['python_setup_py']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/include) by extension 'python_setup_py'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extensions ['ignore', 'ignore_ament_install']
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extension 'ignore'
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extension 'ignore_ament_install'
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extensions ['colcon_pkg']
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extension 'colcon_pkg'
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extensions ['colcon_meta']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extension 'colcon_meta'
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extensions ['ros']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extension 'ros'
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extensions ['cmake', 'python']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extension 'cmake'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extension 'python'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extensions ['python_setup_py']
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/lib) by extension 'python_setup_py'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extensions ['ignore', 'ignore_ament_install']
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extension 'ignore'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extension 'ignore_ament_install'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extensions ['colcon_pkg']
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extension 'colcon_pkg'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extensions ['colcon_meta']
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extension 'colcon_meta'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extensions ['ros']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extension 'ros'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extensions ['cmake', 'python']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extension 'cmake'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extension 'python'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extensions ['python_setup_py']
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src) by extension 'python_setup_py'
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extensions ['ignore', 'ignore_ament_install']
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extension 'ignore'
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extension 'ignore_ament_install'
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extensions ['colcon_pkg']
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extension 'colcon_pkg'
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extensions ['colcon_meta']
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extension 'colcon_meta'
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extensions ['ros']
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extension 'ros'
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extensions ['cmake', 'python']
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extension 'cmake'
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extension 'python'
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extensions ['python_setup_py']
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/GeneralUtility) by extension 'python_setup_py'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extensions ['ignore', 'ignore_ament_install']
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extension 'ignore'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extension 'ignore_ament_install'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extensions ['colcon_pkg']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extension 'colcon_pkg'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extensions ['colcon_meta']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extension 'colcon_meta'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extensions ['ros']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extension 'ros'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extensions ['cmake', 'python']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extension 'cmake'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extension 'python'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extensions ['python_setup_py']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot) by extension 'python_setup_py'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extensions ['ignore', 'ignore_ament_install']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extension 'ignore'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extension 'ignore_ament_install'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extensions ['colcon_pkg']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extension 'colcon_pkg'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extensions ['colcon_meta']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extension 'colcon_meta'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extensions ['ros']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extension 'ros'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extensions ['cmake', 'python']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extension 'cmake'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extension 'python'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extensions ['python_setup_py']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Communication) by extension 'python_setup_py'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extension 'ignore_ament_install'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extensions ['colcon_pkg']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extension 'colcon_pkg'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extensions ['colcon_meta']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extension 'colcon_meta'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extensions ['ros']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extension 'ros'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extensions ['cmake', 'python']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extension 'cmake'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extension 'python'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extensions ['python_setup_py']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/IMU) by extension 'python_setup_py'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extensions ['ignore', 'ignore_ament_install']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extension 'ignore'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extension 'ignore_ament_install'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extensions ['colcon_pkg']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extension 'colcon_pkg'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extensions ['colcon_meta']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extension 'colcon_meta'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extensions ['ros']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extension 'ros'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extensions ['cmake', 'python']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extension 'cmake'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extension 'python'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extensions ['python_setup_py']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Motors) by extension 'python_setup_py'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extensions ['ignore', 'ignore_ament_install']
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extension 'ignore'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extension 'ignore_ament_install'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extensions ['colcon_pkg']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extension 'colcon_pkg'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extensions ['colcon_meta']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extension 'colcon_meta'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extensions ['ros']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extension 'ros'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extensions ['cmake', 'python']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extension 'cmake'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extension 'python'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extensions ['python_setup_py']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/src/Robot/Utility) by extension 'python_setup_py'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extensions ['ignore', 'ignore_ament_install']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extension 'ignore'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extension 'ignore_ament_install'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extensions ['colcon_pkg']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extension 'colcon_pkg'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extensions ['colcon_meta']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extension 'colcon_meta'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extensions ['ros']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extension 'ros'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extensions ['cmake', 'python']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extension 'cmake'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extension 'python'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extensions ['python_setup_py']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/Robot Sensor Motor Controller - DMP/test) by extension 'python_setup_py'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extensions ['ignore', 'ignore_ament_install']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extension 'ignore'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extension 'ignore_ament_install'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extensions ['colcon_pkg']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extension 'colcon_pkg'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extensions ['colcon_meta']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extension 'colcon_meta'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extensions ['ros']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extension 'ros'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extensions ['cmake', 'python']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extension 'cmake'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extension 'python'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extensions ['python_setup_py']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project) by extension 'python_setup_py'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extensions ['ignore', 'ignore_ament_install']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extension 'ignore'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extension 'ignore_ament_install'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extensions ['colcon_pkg']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extension 'colcon_pkg'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extensions ['colcon_meta']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extension 'colcon_meta'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extensions ['ros']
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extension 'ros'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extensions ['cmake', 'python']
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extension 'cmake'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extension 'python'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extensions ['python_setup_py']
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/SerialPlot Logs) by extension 'python_setup_py'
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extensions ['ignore', 'ignore_ament_install']
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extension 'ignore'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extension 'ignore_ament_install'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extensions ['colcon_pkg']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extension 'colcon_pkg'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extensions ['colcon_meta']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extension 'colcon_meta'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extensions ['ros']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extension 'ros'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extensions ['cmake', 'python']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extension 'cmake'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extension 'python'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extensions ['python_setup_py']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/include) by extension 'python_setup_py'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extensions ['ignore', 'ignore_ament_install']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extension 'ignore'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extension 'ignore_ament_install'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extensions ['colcon_pkg']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extension 'colcon_pkg'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extensions ['colcon_meta']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extension 'colcon_meta'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extensions ['ros']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extension 'ros'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extensions ['cmake', 'python']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extension 'cmake'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extension 'python'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extensions ['python_setup_py']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/lib) by extension 'python_setup_py'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extensions ['ignore', 'ignore_ament_install']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extension 'ignore'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extension 'ignore_ament_install'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extensions ['colcon_pkg']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extension 'colcon_pkg'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extensions ['colcon_meta']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extension 'colcon_meta'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extensions ['ros']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extension 'ros'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extensions ['cmake', 'python']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extension 'cmake'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extension 'python'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extensions ['python_setup_py']
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/src) by extension 'python_setup_py'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extensions ['ignore', 'ignore_ament_install']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extension 'ignore'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extension 'ignore_ament_install'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extensions ['colcon_pkg']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extension 'colcon_pkg'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extensions ['colcon_meta']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extension 'colcon_meta'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extensions ['ros']
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extension 'ros'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extensions ['cmake', 'python']
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extension 'cmake'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extension 'python'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extensions ['python_setup_py']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(Microcontroller/icm-20948 IMU Test Project/test) by extension 'python_setup_py'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extensions ['ignore', 'ignore_ament_install']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extension 'ignore'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extension 'ignore_ament_install'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extensions ['colcon_pkg']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extension 'colcon_pkg'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extensions ['colcon_meta']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extension 'colcon_meta'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extensions ['ros']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extension 'ros'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extensions ['cmake', 'python']
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extension 'cmake'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extension 'python'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extensions ['python_setup_py']
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser) by extension 'python_setup_py'
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extensions ['ignore', 'ignore_ament_install']
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extension 'ignore'
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extension 'ignore_ament_install'
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extensions ['colcon_pkg']
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extension 'colcon_pkg'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extensions ['colcon_meta']
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extension 'colcon_meta'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extensions ['ros']
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extension 'ros'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extensions ['cmake', 'python']
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extension 'cmake'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extension 'python'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extensions ['python_setup_py']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(UTM to CMD parser/src) by extension 'python_setup_py'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['ignore', 'ignore_ament_install']
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'ignore'
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'ignore_ament_install'
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['colcon_pkg']
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'colcon_pkg'
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['colcon_meta']
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'colcon_meta'
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['ros']
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'ros'
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['cmake', 'python']
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'cmake'
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'python'
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extensions ['python_setup_py']
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(img) by extension 'python_setup_py'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extensions ['ignore', 'ignore_ament_install']
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extension 'ignore'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extension 'ignore_ament_install'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extensions ['colcon_pkg']
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extension 'colcon_pkg'
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extensions ['colcon_meta']
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extension 'colcon_meta'
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extensions ['ros']
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extension 'ros'
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extensions ['cmake', 'python']
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extension 'cmake'
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extension 'python'
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extensions ['python_setup_py']
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(img/Calibration) by extension 'python_setup_py'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extension 'ignore'
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extension 'ignore_ament_install'
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extensions ['colcon_pkg']
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extension 'colcon_pkg'
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extensions ['colcon_meta']
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extension 'colcon_meta'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extensions ['ros']
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extension 'ros'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extensions ['cmake', 'python']
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extension 'cmake'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extension 'python'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extensions ['python_setup_py']
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws) by extension 'python_setup_py'
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/build) by extension 'ignore'
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/build) ignored
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/install) by extension 'ignore'
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/install) ignored
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/log) by extension 'ignore'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/log) ignored
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extension 'ignore'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extension 'ignore_ament_install'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extensions ['colcon_pkg']
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extension 'colcon_pkg'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extensions ['colcon_meta']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extension 'colcon_meta'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extensions ['ros']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extension 'ros'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extensions ['cmake', 'python']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extension 'cmake'
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extension 'python'
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extensions ['python_setup_py']
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src) by extension 'python_setup_py'
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extensions ['ignore', 'ignore_ament_install']
+[2.627s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extension 'ignore'
+[2.627s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extension 'ignore_ament_install'
+[2.627s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extensions ['colcon_pkg']
+[2.627s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extension 'colcon_pkg'
+[2.627s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extensions ['colcon_meta']
+[2.627s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extension 'colcon_meta'
+[2.628s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extensions ['ros']
+[2.628s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/path_nav) by extension 'ros'
+[2.636s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_mower_robot_ws/src/path_nav' with type 'ros.ament_python' and name 'path_nav'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extension 'ignore'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extension 'ignore_ament_install'
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extensions ['colcon_pkg']
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extension 'colcon_pkg'
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extensions ['colcon_meta']
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extension 'colcon_meta'
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extensions ['ros']
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_interfaces) by extension 'ros'
+[2.641s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_mower_robot_ws/src/robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extensions ['ignore', 'ignore_ament_install']
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extension 'ignore'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extension 'ignore_ament_install'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extensions ['colcon_pkg']
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extension 'colcon_pkg'
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extensions ['colcon_meta']
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extension 'colcon_meta'
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extensions ['ros']
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(ros_mower_robot_ws/src/robot_motor_control_py) by extension 'ros'
+[2.646s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_mower_robot_ws/src/robot_motor_control_py' with type 'ros.ament_python' and name 'robot_motor_control_py'
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extension 'ignore'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extension 'ignore_ament_install'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extensions ['colcon_pkg']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extension 'colcon_pkg'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extensions ['colcon_meta']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extension 'colcon_meta'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extensions ['ros']
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extension 'ros'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extensions ['cmake', 'python']
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extension 'cmake'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extension 'python'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extensions ['python_setup_py']
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(setup_scripts) by extension 'python_setup_py'
+[2.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.757s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/pi/Lawnmower-system/install
+[2.761s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/Navigation-ROSNode/install
+[2.766s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/Navigation-ROSNode/mcomp_test/install
+[2.777s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[2.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.034s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.034s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.034s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.035s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.035s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.035s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.035s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.035s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.035s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.035s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Lawnmower-system/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Lawnmower-system/install/robot_interfaces', 'merge_install': False, 'path': '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'cmake_args' from command line to 'None'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'cmake_target' from command line to 'None'
+[3.040s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.040s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[3.040s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'cmake_clean_first' from command line to 'False'
+[3.040s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'cmake_force_configure' from command line to 'False'
+[3.040s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'ament_cmake_args' from command line to 'None'
+[3.040s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[3.040s] Level 5:colcon.colcon_core.verb:set package 'path_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.040s] DEBUG:colcon.colcon_core.verb:Building package 'path_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Lawnmower-system/build/path_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Lawnmower-system/install/path_nav', 'merge_install': False, 'path': '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/path_nav', 'symlink_install': False, 'test_result_base': None}
+[3.044s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'cmake_target' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'cmake_clean_cache' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'cmake_clean_first' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'cmake_force_configure' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'ament_cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'catkin_cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'robot_motor_control_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.045s] DEBUG:colcon.colcon_core.verb:Building package 'robot_motor_control_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/Lawnmower-system/build/robot_motor_control_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/Lawnmower-system/install/robot_motor_control_py', 'merge_install': False, 'path': '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py', 'symlink_install': False, 'test_result_base': None}
+[3.048s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.061s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_interfaces' with build type 'ament_cmake'
+[3.062s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_interfaces'
+[3.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.081s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.081s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Lawnmower-system/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/Lawnmower-system/install/robot_motor_control_py:/home/pi/Navigation-ROSNode/install/mcomp_test:/home/pi/Navigation-ROSNode/mcomp_test/install/mcomp_test:/opt/ros/humble /usr/bin/cmake --build /home/pi/Lawnmower-system/build/robot_interfaces -- -j4 -l4
+[4.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Lawnmower-system/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/Lawnmower-system/install/robot_motor_control_py:/home/pi/Navigation-ROSNode/install/mcomp_test:/home/pi/Navigation-ROSNode/mcomp_test/install/mcomp_test:/opt/ros/humble /usr/bin/cmake --build /home/pi/Lawnmower-system/build/robot_interfaces -- -j4 -l4
+[5.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Lawnmower-system/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/Lawnmower-system/install/robot_motor_control_py:/home/pi/Navigation-ROSNode/install/mcomp_test:/home/pi/Navigation-ROSNode/mcomp_test/install/mcomp_test:/opt/ros/humble /usr/bin/cmake --install /home/pi/Lawnmower-system/build/robot_interfaces
+[6.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[6.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Lawnmower-system/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/Lawnmower-system/install/robot_motor_control_py:/home/pi/Navigation-ROSNode/install/mcomp_test:/home/pi/Navigation-ROSNode/mcomp_test/install/mcomp_test:/opt/ros/humble /usr/bin/cmake --install /home/pi/Lawnmower-system/build/robot_interfaces
+[6.080s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces' for CMake module files
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces' for CMake config files
+[6.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[6.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[6.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[6.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[6.104s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/lib'
+[6.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[6.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[6.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[6.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/bin'
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[6.116s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/lib/python3.10/site-packages'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/bin'
+[6.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[6.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[6.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.sh'
+[6.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.bash'
+[6.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[6.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Lawnmower-system/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[7.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[7.080s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces' for CMake module files
+[7.094s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces' for CMake config files
+[7.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[7.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[7.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[7.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[7.141s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/lib'
+[7.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[7.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[7.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[7.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[7.168s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/bin'
+[7.169s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[7.171s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/lib/python3.10/site-packages'
+[7.173s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_interfaces/bin'
+[7.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[7.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[7.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.sh'
+[7.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.bash'
+[7.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[7.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Lawnmower-system/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[7.220s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/path_nav' with build type 'ament_python'
+[7.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_nav', 'ament_prefix_path')
+[7.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/ament_prefix_path.ps1'
+[7.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/ament_prefix_path.dsv'
+[7.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/ament_prefix_path.sh'
+[7.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.353s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py' with build type 'ament_python'
+[7.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_motor_control_py', 'ament_prefix_path')
+[7.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/hook/ament_prefix_path.ps1'
+[7.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/hook/ament_prefix_path.dsv'
+[7.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/hook/ament_prefix_path.sh'
+[7.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.888s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/path_nav'
+[9.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.124s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py'
+[11.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/path_nav': CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/path_nav PYTHONPATH=/home/pi/Lawnmower-system/build/path_nav/prefix_override:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_nav build --build-base /home/pi/Lawnmower-system/build/path_nav/build install --record /home/pi/Lawnmower-system/build/path_nav/install.log --single-version-externally-managed
+[14.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py': CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/path_nav PYTHONPATH=/home/pi/Lawnmower-system/build/robot_motor_control_py/prefix_override:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_motor_control_py build --build-base /home/pi/Lawnmower-system/build/robot_motor_control_py/build install --record /home/pi/Lawnmower-system/build/robot_motor_control_py/install.log --single-version-externally-managed
+[16.920s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/path_nav' for CMake module files
+[16.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/path_nav' returned '0': CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/path_nav PYTHONPATH=/home/pi/Lawnmower-system/build/path_nav/prefix_override:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_nav build --build-base /home/pi/Lawnmower-system/build/path_nav/build install --record /home/pi/Lawnmower-system/build/path_nav/install.log --single-version-externally-managed
+[16.925s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/path_nav' for CMake config files
+[16.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_nav', 'cmake_prefix_path')
+[16.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/cmake_prefix_path.ps1'
+[16.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/cmake_prefix_path.dsv'
+[16.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/cmake_prefix_path.sh'
+[16.939s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/path_nav/lib'
+[16.940s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/path_nav/bin'
+[16.940s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/path_nav/lib/pkgconfig/path_nav.pc'
+[16.941s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages'
+[16.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_nav', 'pythonpath')
+[16.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/pythonpath.ps1'
+[16.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/pythonpath.dsv'
+[16.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/hook/pythonpath.sh'
+[16.952s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/path_nav/bin'
+[16.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_nav)
+[16.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/package.ps1'
+[16.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/package.dsv'
+[16.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/package.sh'
+[16.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/package.bash'
+[16.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/path_nav/share/path_nav/package.zsh'
+[16.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Lawnmower-system/install/path_nav/share/colcon-core/packages/path_nav)
+[16.978s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_motor_control_py' for CMake module files
+[16.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py' returned '0': CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/path_nav PYTHONPATH=/home/pi/Lawnmower-system/build/robot_motor_control_py/prefix_override:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_motor_control_py build --build-base /home/pi/Lawnmower-system/build/robot_motor_control_py/build install --record /home/pi/Lawnmower-system/build/robot_motor_control_py/install.log --single-version-externally-managed
+[16.982s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_motor_control_py' for CMake config files
+[16.986s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib'
+[16.987s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_motor_control_py/bin'
+[16.987s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/pkgconfig/robot_motor_control_py.pc'
+[16.988s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages'
+[16.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_motor_control_py', 'pythonpath')
+[16.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/hook/pythonpath.ps1'
+[16.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/hook/pythonpath.dsv'
+[16.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/hook/pythonpath.sh'
+[16.999s] Level 1:colcon.colcon_core.environment:checking '/home/pi/Lawnmower-system/install/robot_motor_control_py/bin'
+[17.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_motor_control_py)
+[17.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/package.ps1'
+[17.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/package.dsv'
+[17.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/package.sh'
+[17.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/package.bash'
+[17.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/Lawnmower-system/install/robot_motor_control_py/share/robot_motor_control_py/package.zsh'
+[17.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/Lawnmower-system/install/robot_motor_control_py/share/colcon-core/packages/robot_motor_control_py)
+[17.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.018s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[17.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.041s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.044s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[17.044s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.049s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Lawnmower-system/install/local_setup.ps1'
+[17.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/Lawnmower-system/install/_local_setup_util_ps1.py'
+[17.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Lawnmower-system/install/setup.ps1'
+[17.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Lawnmower-system/install/local_setup.sh'
+[17.072s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/Lawnmower-system/install/_local_setup_util_sh.py'
+[17.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Lawnmower-system/install/setup.sh'
+[17.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Lawnmower-system/install/local_setup.bash'
+[17.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Lawnmower-system/install/setup.bash'
+[17.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/Lawnmower-system/install/local_setup.zsh'
+[17.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/Lawnmower-system/install/setup.zsh'

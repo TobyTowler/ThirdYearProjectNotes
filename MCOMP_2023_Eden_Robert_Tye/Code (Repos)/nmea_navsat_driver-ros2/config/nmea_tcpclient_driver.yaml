@@ -1,0 +1,5 @@
+nmea_navsat_driver:
+  ros__parameters:
+    ip: "127.0.0.1"
+    port: 2121
+    buffer_size: 4096

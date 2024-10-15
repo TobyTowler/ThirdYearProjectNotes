@@ -1,0 +1,5 @@
+db.env
+*/__pycache__/
+docs/build/
+.vscode/
+server-side/.cookies.json

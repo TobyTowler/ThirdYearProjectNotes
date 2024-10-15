@@ -1,0 +1,25 @@
+[11.046s] Invoking command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py': CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/path_nav LD_LIBRARY_PATH=/home/pi/Lawnmower-system/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pi/Lawnmower-system/build/robot_motor_control_py/prefix_override:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_motor_control_py build --build-base /home/pi/Lawnmower-system/build/robot_motor_control_py/build install --record /home/pi/Lawnmower-system/build/robot_motor_control_py/install.log --single-version-externally-managed
+[14.245s] running egg_info
+[14.253s] writing ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/PKG-INFO
+[14.255s] writing dependency_links to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/dependency_links.txt
+[14.258s] writing entry points to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/entry_points.txt
+[14.260s] writing requirements to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/requires.txt
+[14.262s] writing top-level names to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/top_level.txt
+[14.285s] reading manifest file '../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/SOURCES.txt'
+[14.299s] writing manifest file '../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/SOURCES.txt'
+[14.300s] running build
+[14.301s] running build_py
+[14.313s] running install
+[14.314s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[14.315s]   warnings.warn(
+[14.317s] running install_lib
+[14.342s] running install_data
+[14.349s] running install_egg_info
+[14.363s] removing '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py-0.0.0-py3.10.egg-info' (and everything under it)
+[14.368s] Copying ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py-0.0.0-py3.10.egg-info
+[14.385s] running install_scripts
+[14.601s] Installing robot_bridge script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+[14.603s] Installing robot_path_provider_client script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+[14.605s] Installing robot_user_client script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+[14.612s] writing list of installed files to '/home/pi/Lawnmower-system/build/robot_motor_control_py/install.log'
+[14.895s] Invoked command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py' returned '0': CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:/home/pi/Lawnmower-system/install/path_nav LD_LIBRARY_PATH=/home/pi/Lawnmower-system/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pi/Lawnmower-system/build/robot_motor_control_py/prefix_override:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_motor_control_py build --build-base /home/pi/Lawnmower-system/build/robot_motor_control_py/build install --record /home/pi/Lawnmower-system/build/robot_motor_control_py/install.log --single-version-externally-managed

@@ -1,0 +1,49 @@
+running egg_info
+creating ../../../build/path_nav/path_nav.egg-info
+writing ../../../build/path_nav/path_nav.egg-info/PKG-INFO
+writing dependency_links to ../../../build/path_nav/path_nav.egg-info/dependency_links.txt
+writing entry points to ../../../build/path_nav/path_nav.egg-info/entry_points.txt
+writing requirements to ../../../build/path_nav/path_nav.egg-info/requires.txt
+writing top-level names to ../../../build/path_nav/path_nav.egg-info/top_level.txt
+writing manifest file '../../../build/path_nav/path_nav.egg-info/SOURCES.txt'
+reading manifest file '../../../build/path_nav/path_nav.egg-info/SOURCES.txt'
+writing manifest file '../../../build/path_nav/path_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/Lawnmower-system/build/path_nav/build
+creating /home/pi/Lawnmower-system/build/path_nav/build/lib
+creating /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+copying path_nav/lds.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+copying path_nav/ends.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+copying path_nav/utm_func.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+copying path_nav/consts.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+copying path_nav/mower.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+copying path_nav/__init__.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+copying path_nav/lidar_sim.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/lds.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/ends.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/utm_func.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/consts.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/mower.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/__init__.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/lidar_sim.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/lds.py to lds.cpython-310.pyc
+byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/ends.py to ends.cpython-310.pyc
+byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/utm_func.py to utm_func.cpython-310.pyc
+byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/consts.py to consts.cpython-310.pyc
+byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/mower.py to mower.cpython-310.pyc
+byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/lidar_sim.py to lidar_sim.cpython-310.pyc
+running install_data
+copying resource/path_nav -> /home/pi/Lawnmower-system/install/path_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/Lawnmower-system/install/path_nav/share/path_nav
+running install_egg_info
+Copying ../../../build/path_nav/path_nav.egg-info to /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot_nav script to /home/pi/Lawnmower-system/install/path_nav/lib/path_nav
+writing list of installed files to '/home/pi/Lawnmower-system/build/path_nav/install.log'

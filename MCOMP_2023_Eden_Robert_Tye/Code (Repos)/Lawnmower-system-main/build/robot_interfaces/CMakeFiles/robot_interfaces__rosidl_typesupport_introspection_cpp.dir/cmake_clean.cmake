@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.cpp.o"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.cpp.o.d"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_send_cmd__type_support.cpp.o"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_send_cmd__type_support.cpp.o.d"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_serial_received__type_support.cpp.o"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_serial_received__type_support.cpp.o.d"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/robot_cmd__type_support.cpp.o"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/robot_cmd__type_support.cpp.o.d"
+  "librobot_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "librobot_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/robot_cm_ddepressiated__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/robot_cm_ddepressiated__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_send_cmd__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_send_cmd__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_serial_received__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_serial_received__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/robot_cmd__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/robot_cmd__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

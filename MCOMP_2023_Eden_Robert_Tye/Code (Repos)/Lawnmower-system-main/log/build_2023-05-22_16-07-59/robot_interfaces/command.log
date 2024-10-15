@@ -1,0 +1,4 @@
+Invoking command in '/home/pi/Lawnmower-system/build/robot_interfaces': /usr/bin/cmake --build /home/pi/Lawnmower-system/build/robot_interfaces -- -j4 -l4
+Invoked command in '/home/pi/Lawnmower-system/build/robot_interfaces' returned '0': /usr/bin/cmake --build /home/pi/Lawnmower-system/build/robot_interfaces -- -j4 -l4
+Invoking command in '/home/pi/Lawnmower-system/build/robot_interfaces': /usr/bin/cmake --install /home/pi/Lawnmower-system/build/robot_interfaces
+Invoked command in '/home/pi/Lawnmower-system/build/robot_interfaces' returned '0': /usr/bin/cmake --install /home/pi/Lawnmower-system/build/robot_interfaces

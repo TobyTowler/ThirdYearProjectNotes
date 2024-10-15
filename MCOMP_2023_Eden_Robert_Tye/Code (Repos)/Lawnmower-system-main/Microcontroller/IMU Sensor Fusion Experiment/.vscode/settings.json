@@ -1,0 +1,8 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "*.tcc": "cpp",
+        "random": "cpp",
+        "cmath": "cpp"
+    }
+}

@@ -1,0 +1,24 @@
+running egg_info
+writing ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/entry_points.txt
+writing requirements to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/requires.txt
+writing top-level names to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/top_level.txt
+reading manifest file '../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying Pathing/Sample_Co_ordinates.py -> /home/pi/Lawnmower-system/build/robot_motor_control_py/build/lib/Pathing
+running install
+running install_lib
+copying /home/pi/Lawnmower-system/build/robot_motor_control_py/build/lib/Pathing/Sample_Co_ordinates.py -> /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/Pathing
+byte-compiling /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/Pathing/Sample_Co_ordinates.py to Sample_Co_ordinates.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot_bridge script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+Installing robot_path_provider_client script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+Installing robot_user_client script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+writing list of installed files to '/home/pi/Lawnmower-system/build/robot_motor_control_py/install.log'

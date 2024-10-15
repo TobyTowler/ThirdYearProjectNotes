@@ -1,0 +1,5 @@
+[console_scripts]
+robot_bridge = robot_motor_control_py.robot_bridge:main
+robot_path_provider_client = robot_motor_control_py.robot_path_provider_client:main
+robot_user_client = robot_motor_control_py.robot_user_client:main
+

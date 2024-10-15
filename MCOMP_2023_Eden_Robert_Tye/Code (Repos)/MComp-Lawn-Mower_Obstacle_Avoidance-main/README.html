@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+</head>
+
+<body>
+
+<h1 id="mcomp-lawn-mower-obstacle-avoidance">MComp Lawn Mower Obstacle Avoidance</h1>
+<p>Obstacle avoidance using LiDAR testing and simulation. Development and testing of methods for eventual use in the automatic lawn mower. To use input a perimeter, a list of nogo zones, a start point, and an end point. These points should be in GPS format as they will then be converted to UTM.</p>
+<p>UTM has been chosen as the distance the lawn mower will travel is small enough such that the curvature of the Earth is thought to have negligible affect on accuracy. UTM also provides an easy way to traverse the space in metres, using the compass on the robot.</p>
+<h1 id="changelog">Changelog</h1>
+<ul>
+<li>17/02/2023: Added methods to stop the robot seeing through obstacles. The method is more relatively exhaustive but wouldn’t be needed in real-life.
+<ul>
+<li>Testing with a smaller LiDAR range. Fixed getting stuck on a wall. Allowing for more direct travel.</li>
+</ul></li>
+<li>18/02/2023: Tested on coverage map generated without known obstacles.</li>
+<li>08/03/2023: Integrated the route traversal methods from the <code>Mapping</code> repo
+<ul>
+<li>Fixed incorrect back-on-track point</li>
+<li>Removed section instructing robot to move within the line detection method</li>
+</ul></li>
+<li>09/03/2023: Fixed doubling back if off course.
+<ul>
+<li>If the robot becomes ‘off-course’ but an obstacle is between it and the ideal path then it continues as normal until past the obstacle</li>
+</ul></li>
+<li>10/03/2023: Fixed issues with robot seeing through walls</li>
+</ul>
+<h1 id="todo">TODO</h1>
+<ul>
+<li>[x] Handle multiple objects
+<ul>
+<li>Both close together and far apart (allowing movement between)</li>
+</ul></li>
+<li>[x] Stop the robot seeing through walls</li>
+<li>[ ] Handle case if point is inaccessible due to an obstacle covering, surrounding or blocking</li>
+<li>[x] Combine with route mapping - if off course and no obstacles, move back to route.</li>
+<li>[ ] Move robot to end of detected end point</li>
+</ul>
+<h1 id="known-issues">Known Issues</h1>
+<ul>
+<li>Integrating the route traversal has produced some undesirable code and logic issues</li>
+<li>If an object is flat between the target and the robot it has the chance to go back and forth without making progress</li>
+<li>If the robot gets too close to an obstacle there are some issues with detecting points, this is thought to be because:
+<ul>
+<li>The ‘LiDAR’ comes from a single points but a real sensor would have some width</li>
+<li>A real LiDAR would not need functions to find points and remove points behind walls This may be fixed by changing the movement distance and bearing to keep some distance between the obstacle and the robot.</li>
+<li>Currently a check has been added to determine if an object is too close or if movement results in moving within an object to adjust movement accordingly It is still possible for robot to get stuck or pass through walls, but it is less common</li>
+</ul></li>
+</ul>
+<h1 id="current-pipeline">Current Pipeline</h1>
+<ul>
+<li>Generate a perfect route with some amount of overlap, in the below case it is 25% the width of the robot</li>
+</ul>
+<figure>
+<img src="./Images/Coverage_Route.png" alt="Testing_Obstacle_Avoidance_Animated" /><figcaption>Testing_Obstacle_Avoidance_Animated</figcaption>
+</figure>
+<ul>
+<li>Reduce the number of points by remove those along the same line
+<ul>
+<li>This reduces the memory requirements but also reduces the chances a point is within an unknown object</li>
+</ul></li>
+</ul>
+<figure>
+<img src="./Images/Direction_Change_Route.png" alt="Testing_Obstacle_Avoidance_Animated" /><figcaption>Testing_Obstacle_Avoidance_Animated</figcaption>
+</figure>
+<ul>
+<li>Follow this route with unknown obstacles within</li>
+</ul>
+<figure>
+<img src="./Images/Slightly_Improved_Final_Route.gif" alt="Testing_Obstacle_Avoidance_Animated" /><figcaption>Testing_Obstacle_Avoidance_Animated</figcaption>
+</figure>
+<ul>
+<li>Without map matching to the route this gives the following result</li>
+</ul>
+<figure>
+<img src="./Images/Slightly_Improved_Final_Coverage.png" alt="Testing_Obstacle_Avoidance_Animated" /><figcaption>Testing_Obstacle_Avoidance_Animated</figcaption>
+</figure>
+<ul>
+<li><p>Applying map matching is the next step and should improve the total coverage</p></li>
+<li>Using the robot’s location and points detected from the LiDAR unknown objects can be detected
+<ul>
+<li>These points can be sent back to the server for a more optimal coverage map</li>
+<li>This method could also be applied to improve the digital map’s accuracy</li>
+</ul></li>
+</ul>
+<figure>
+<img src="./Images/Detected_Boundaries.png" alt="Testing_Obstacle_Avoidance_Animated" /><figcaption>Testing_Obstacle_Avoidance_Animated</figcaption>
+</figure>
+<ul>
+<li>Applying the map matching to improve the overall coverage</li>
+</ul>
+<figure>
+<img src="./Images/Integrated_MapMatching.gif" alt="Testing_Obstacle_Avoidance_Animated" /><figcaption>Testing_Obstacle_Avoidance_Animated</figcaption>
+</figure>
+<pre><code>  When the robot is considered off course a new target point is determined.
+  This point lies on the line between the origin and current destination, 
+  initially it is the closest point on the line to the robot. However,
+  this creates problems when an obstacle is between it and this new point - 
+  the robot is most often off course when avoiding obstacles. In an attempt to 
+  avoid obstacles and move in the correct direction the new point is offset
+  by some value. It appears, the greater the value the less chance of getting stuck, 
+  but the lower total coverage.</code></pre>
+<figure>
+<img src="./Images/Integrated_MapMatching_Coverage.png" alt="Testing_Obstacle_Avoidance_Animated" /><figcaption>Testing_Obstacle_Avoidance_Animated</figcaption>
+</figure>
+<pre><code>  Overall coverage can be limited to RTK accuracy, route, and unknown obstacles. 
+  These inaccuracies can be hard, or in some cases not possible due to the limitations
+  of the hardware in use. To overcome this one method is to provide more than one 
+  route. This provides more work for the robot and is in-efficient however, for 
+  an automated robot the time to finish requirement is not necessarily the primary
+  factor - though battery usage may be. In this project total coverage is the primary
+  focus and as such this is a convinient way to produce desired results.
+  </code></pre>
+<ul>
+<li>Using two overlapping routes to increase overall coverage</li>
+</ul>
+<p><img src="./Images/Overlapping_Route.png" alt="Testing_Obstacle_Avoidance_Animated" /> <img src="./Images/Overlapping_Coverage.png" alt="Testing_Obstacle_Avoidance_Animated" /> <img src="./Images/Overlapping_Route.gif" alt="Testing_Obstacle_Avoidance_Animated" /></p>
+<h1 id="tasks">Tasks</h1>
+<ul>
+<li>What level of route overlap do we need?</li>
+<li>What balance of accuracy to memory efficiency should we have?
+<ul>
+<li>More points means a higher coverage percentage, the above routes are 907 and 118 points respectively.</li>
+<li>Can we find a middle ground or should we perform multiple different routes to account for the innacuracy.</li>
+</ul></li>
+<li>What else, other than RTK inaccuracy, will affect our route?</li>
+<li>What is an acceptable time to compute, total route distance, and time to complete route.</li>
+<li>Testing different off course offset values.</li>
+<li>Test functions to generate random arenas to produce coverage routes, traverse, and report if successfuly traversed.</li>
+</ul>
+<h1 id="progress">Progress</h1>
+<p><img src="./Images/Target_Focused_SM.gif" alt="Testing_Obstacle_Avoidance_Animated" /> <img src="./Images/Endpoint_Focused_SM.gif" alt="Testing_Obstacle_Avoidance_Animated" /> <img src="./Images/No_Xray_Vision_SM.gif" alt="Testing_Obstacle_Avoidance_Animated" /> <img src="./Images/Seperate_Objects_SM.gif" alt="Testing_Obstacle_Avoidance_Animated" /> <img src="./Images/Smaller_LiDAR_Distance_SM.gif" alt="Testing_Obstacle_Avoidance_Animated" /> <img src="./Images/Coverage_No_Mapping_Unknown_Obstacles_SM.gif" alt="Testing_Obstacle_Avoidance_Animated" /> <img src="./Images/Integrated_MapMatching_SM.gif.gif" alt="Testing_Obstacle_Avoidance_Animated" /></p>
+<h1 id="references">References</h1>
+<p>The algorithm in its current state is based primarily on the work found in:</p>
+<p>Peng, Y., Qu, D., Zhong, Y., Xie, S., Luo, J., &amp; Gu, J. (2015, August). The obstacle detection and obstacle avoidance algorithm based on 2-d lidar. In 2015 IEEE international conference on information and automation (pp. 1648-1653). IEEE.</p>
+<p>Further reading has been and will continue to be conducted therefore, this section will be updated when ever the implementation draws from those sources.</p>
+
+</body>
+</html>

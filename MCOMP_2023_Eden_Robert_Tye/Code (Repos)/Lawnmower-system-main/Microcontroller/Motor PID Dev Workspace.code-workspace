@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"path": "Motor PID Control Setup Test"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#90f919",
+			"activityBar.background": "#90f919",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#2696f9",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"commandCenter.border": "#15202b99",
+			"sash.hoverBorder": "#90f919",
+			"statusBar.background": "#76d906",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#5ba705",
+			"statusBarItem.remoteBackground": "#76d906",
+			"statusBarItem.remoteForeground": "#15202b",
+			"titleBar.activeBackground": "#76d906",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#76d90699",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.color": "#76d906",
+		"files.associations": {
+			"array": "cpp",
+			"*.tcc": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"string_view": "cpp",
+			"memory": "cpp",
+			"random": "cpp",
+			"initializer_list": "cpp"
+		}
+	}
+}

@@ -1,0 +1,51 @@
+[4.371s] Invoking command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/path_nav': AMENT_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces LD_LIBRARY_PATH=/home/pi/Lawnmower-system/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Lawnmower-system/build/path_nav/prefix_override:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_nav build --build-base /home/pi/Lawnmower-system/build/path_nav/build install --record /home/pi/Lawnmower-system/build/path_nav/install.log --single-version-externally-managed
+[5.609s] running egg_info
+[5.612s] creating ../../../build/path_nav/path_nav.egg-info
+[5.613s] writing ../../../build/path_nav/path_nav.egg-info/PKG-INFO
+[5.614s] writing dependency_links to ../../../build/path_nav/path_nav.egg-info/dependency_links.txt
+[5.615s] writing entry points to ../../../build/path_nav/path_nav.egg-info/entry_points.txt
+[5.616s] writing requirements to ../../../build/path_nav/path_nav.egg-info/requires.txt
+[5.616s] writing top-level names to ../../../build/path_nav/path_nav.egg-info/top_level.txt
+[5.617s] writing manifest file '../../../build/path_nav/path_nav.egg-info/SOURCES.txt'
+[5.626s] reading manifest file '../../../build/path_nav/path_nav.egg-info/SOURCES.txt'
+[5.629s] writing manifest file '../../../build/path_nav/path_nav.egg-info/SOURCES.txt'
+[5.630s] running build
+[5.631s] running build_py
+[5.633s] creating /home/pi/Lawnmower-system/build/path_nav/build
+[5.634s] creating /home/pi/Lawnmower-system/build/path_nav/build/lib
+[5.634s] creating /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+[5.635s] copying path_nav/lds.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+[5.636s] copying path_nav/ends.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+[5.636s] copying path_nav/utm_func.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+[5.637s] copying path_nav/consts.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+[5.637s] copying path_nav/mower.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+[5.638s] copying path_nav/__init__.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+[5.638s] copying path_nav/lidar_sim.py -> /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav
+[5.639s] running install
+[5.640s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.640s]   warnings.warn(
+[5.642s] running install_lib
+[5.645s] creating /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+[5.645s] copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/lds.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+[5.646s] copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/ends.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+[5.647s] copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/utm_func.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+[5.648s] copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/consts.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+[5.649s] copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/mower.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+[5.650s] copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/__init__.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+[5.651s] copying /home/pi/Lawnmower-system/build/path_nav/build/lib/path_nav/lidar_sim.py -> /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav
+[5.654s] byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/lds.py to lds.cpython-310.pyc
+[5.657s] byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/ends.py to ends.cpython-310.pyc
+[5.659s] byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/utm_func.py to utm_func.cpython-310.pyc
+[5.663s] byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/consts.py to consts.cpython-310.pyc
+[5.664s] byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/mower.py to mower.cpython-310.pyc
+[5.682s] byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/__init__.py to __init__.cpython-310.pyc
+[5.683s] byte-compiling /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav/lidar_sim.py to lidar_sim.cpython-310.pyc
+[5.690s] running install_data
+[5.693s] copying resource/path_nav -> /home/pi/Lawnmower-system/install/path_nav/share/ament_index/resource_index/packages
+[5.694s] copying package.xml -> /home/pi/Lawnmower-system/install/path_nav/share/path_nav
+[5.695s] running install_egg_info
+[5.702s] Copying ../../../build/path_nav/path_nav.egg-info to /home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages/path_nav-0.0.0-py3.10.egg-info
+[5.710s] running install_scripts
+[5.804s] Installing robot_nav script to /home/pi/Lawnmower-system/install/path_nav/lib/path_nav
+[5.807s] writing list of installed files to '/home/pi/Lawnmower-system/build/path_nav/install.log'
+[6.019s] Invoked command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/path_nav' returned '0': AMENT_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces LD_LIBRARY_PATH=/home/pi/Lawnmower-system/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Lawnmower-system/build/path_nav/prefix_override:/home/pi/Lawnmower-system/install/path_nav/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/path_nav build --build-base /home/pi/Lawnmower-system/build/path_nav/build install --record /home/pi/Lawnmower-system/build/path_nav/install.log --single-version-externally-managed

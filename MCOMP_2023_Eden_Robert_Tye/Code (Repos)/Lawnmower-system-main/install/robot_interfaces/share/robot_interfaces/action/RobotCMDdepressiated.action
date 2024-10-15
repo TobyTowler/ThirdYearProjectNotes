@@ -1,0 +1,11 @@
+char cmd_chr 64 # default: 64 (@), as this default values is highly unlikely to not be used for anything in deployemnt
+int32 arg1 0 # default: 0
+int32 arg2 0 # default: 0
+int32 arg3 0 # default: 0
+---
+# The result
+string data_string ""  # default: blank string
+---
+# no feedback during action execution.
+# Reason: action is meant to be quick but just in case we need
+# to interrupt it, we are using an action instread of a service

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "Robot Sensor Motor Controller - DMP"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"random": "cpp",
+			"*.tcc": "cpp"
+		}
+	}
+}

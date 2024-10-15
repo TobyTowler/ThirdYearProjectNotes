@@ -1,0 +1,28 @@
+[4.347s] Invoking command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py': AMENT_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces LD_LIBRARY_PATH=/home/pi/Lawnmower-system/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Lawnmower-system/build/robot_motor_control_py/prefix_override:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_motor_control_py build --build-base /home/pi/Lawnmower-system/build/robot_motor_control_py/build install --record /home/pi/Lawnmower-system/build/robot_motor_control_py/install.log --single-version-externally-managed
+[5.589s] running egg_info
+[5.593s] writing ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/PKG-INFO
+[5.594s] writing dependency_links to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/dependency_links.txt
+[5.597s] writing entry points to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/entry_points.txt
+[5.598s] writing requirements to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/requires.txt
+[5.601s] writing top-level names to ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/top_level.txt
+[5.608s] reading manifest file '../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/SOURCES.txt'
+[5.612s] writing manifest file '../../../build/robot_motor_control_py/robot_motor_control_py.egg-info/SOURCES.txt'
+[5.614s] running build
+[5.614s] running build_py
+[5.617s] copying Pathing/Sample_Co_ordinates.py -> /home/pi/Lawnmower-system/build/robot_motor_control_py/build/lib/Pathing
+[5.619s] running install
+[5.620s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.621s]   warnings.warn(
+[5.621s] running install_lib
+[5.626s] copying /home/pi/Lawnmower-system/build/robot_motor_control_py/build/lib/Pathing/Sample_Co_ordinates.py -> /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/Pathing
+[5.631s] byte-compiling /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/Pathing/Sample_Co_ordinates.py to Sample_Co_ordinates.cpython-310.pyc
+[5.634s] running install_data
+[5.637s] running install_egg_info
+[5.645s] removing '/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py-0.0.0-py3.10.egg-info' (and everything under it)
+[5.648s] Copying ../../../build/robot_motor_control_py/robot_motor_control_py.egg-info to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages/robot_motor_control_py-0.0.0-py3.10.egg-info
+[5.655s] running install_scripts
+[5.746s] Installing robot_bridge script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+[5.748s] Installing robot_path_provider_client script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+[5.749s] Installing robot_user_client script to /home/pi/Lawnmower-system/install/robot_motor_control_py/lib/robot_motor_control_py
+[5.752s] writing list of installed files to '/home/pi/Lawnmower-system/build/robot_motor_control_py/install.log'
+[5.937s] Invoked command in '/home/pi/Lawnmower-system/ros_mower_robot_ws/src/robot_motor_control_py' returned '0': AMENT_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/Lawnmower-system/install/robot_interfaces LD_LIBRARY_PATH=/home/pi/Lawnmower-system/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/Lawnmower-system/build/robot_motor_control_py/prefix_override:/home/pi/Lawnmower-system/install/robot_motor_control_py/lib/python3.10/site-packages:/home/pi/Lawnmower-system/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_motor_control_py build --build-base /home/pi/Lawnmower-system/build/robot_motor_control_py/build install --record /home/pi/Lawnmower-system/build/robot_motor_control_py/install.log --single-version-externally-managed

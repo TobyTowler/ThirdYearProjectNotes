@@ -1,0 +1,3 @@
+[console_scripts]
+robot_nav = path_nav.lidar_sim:main
+
