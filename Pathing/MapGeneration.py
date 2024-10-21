@@ -45,11 +45,33 @@ def sortPoints(arr):
     #    return newMap
     #
     print("Hello")
+    start = arr[0]
+    left = []
+    right = []
+    for i in arr:
+        if i[1] < start[1]:
+            left.append(i)
+        else:
+            right.append(i)
+    # left.append(start)
+    left += right
+    return left
 
 
 map = createMap(8, 2)
 print(map)
-# print(mapBoundaries)
 
-#
-turtle.pendown()
+sortedMap = sortPoints(map[0])
+print(sortedMap)
+
+
+def draw(map):
+    for n in map:
+        turtle.goto(n)
+        # turtle.pendown()
+
+    turtle.goto(map[0])
+    turtle.exitonclick()
+
+
+draw(map[0])
