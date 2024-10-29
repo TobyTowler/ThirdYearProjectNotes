@@ -8,12 +8,12 @@ def createMap(n, k):
     # map points
     pointsarr = []
     for i in range(n):
-        randX = random.randint(0, 500)
-        randY = random.randint(0, 500)
+        randX = random.randint(0, 300)
+        randY = random.randint(0, 300)
         pointsarr.append([randX, randY])
 
-    pointsarr.sort()
     mapBoundaries.append(pointsarr)
+
     for i in range(k):
         holearr = []
         randBound = random.randint(1, 8)
@@ -25,53 +25,67 @@ def createMap(n, k):
     return mapBoundaries
 
 
-def sortPoints(arr):
-    #    start = arr[0][1]
-    #    newMap = [[]]
-    #    before = []
-    #    after = []
-    #    print(newMap, "\n")
-    #    for i in arr:
-    #        num = i[1]
-    #        if num < start:
-    #            before.append(arr[i])
-    #        else:
-    #            after.append(arr[i])
-    #
-    #    newMap += before
-    #    newMap.append(arr[0])
-    #    newMap += after
-    #    print("new map:::", newMap, "\n\n")
-    #    return newMap
-    #
-    print("Hello")
-    start = arr[0]
-    left = []
-    right = []
-    for i in arr:
-        if i[1] < start[1]:
-            left.append(i)
+def sortPoints(map):
+    above = []
+    below = []
+    map.sort()
+    origin = map[0]
+    newMap = [origin]
+    map.pop(0)
+    for i in map:
+        if i[1] < origin[1] + 10:
+            print(i, origin, "below")
+            below.append(i)
         else:
-            right.append(i)
-    # left.append(start)
-    left += right
-    return left
+            print(i, origin, "above")
+            above.append(i)
+
+    above.reverse()
+
+    i = len(below) - 1
+    if i > 0:
+        if below[i][1] < below[i - 1][1]:
+            temp = below[i]
+            below[i] = below[i - 1]
+            below[i - 1] = temp
+
+    else:
+        i = len(above) - 1
+        if above[i][0] > above[i - 1][0]:
+            temp = above[i]
+            above[i] = above[i - 1]
+            above[i - 1] = temp
+
+    newMap += below
+    newMap += above
+    print("\nBELOW", below)
+    print("\nABOVE", above)
+
+    return newMap
 
 
-map = createMap(8, 2)
-print(map)
+map = createMap(15, 2)
+print("Map", map)
 
 sortedMap = sortPoints(map[0])
-print(sortedMap)
+print("Sorted map", sortedMap)
 
 
 def draw(map):
+    turtle.penup()
+    # turtle.hideturtle()
+    # turtle.speed(0)
     for n in map:
         turtle.goto(n)
+        turtle.pendown()
         # turtle.pendown()
 
     turtle.goto(map[0])
     turtle.exitonclick()
 
 
-draw(map[0])
+# Work out O(n) complexity
+# draw(map[0])
+
+# test = [[0, 0], [0, 300], [300, 300], [300, 0]]
+draw(sortedMap)
