@@ -42,19 +42,22 @@ def sortPoints(map):
 
     above.reverse()
 
-    i = len(below) - 1
-    if i > 0:
-        if below[i][1] < below[i - 1][1]:
-            temp = below[i]
-            below[i] = below[i - 1]
-            below[i - 1] = temp
-
-    else:
-        i = len(above) - 1
-        if above[i][0] > above[i - 1][0]:
-            temp = above[i]
-            above[i] = above[i - 1]
-            above[i - 1] = temp
+    # i = len(below) - 1
+    # if i > 0:
+    #     if below[i][1] < below[i - 1][1]:
+    #         temp = below[i]
+    #         below[i] = below[i - 1]
+    #         below[i - 1] = temp
+    #
+    # else:
+    #     i = len(above) - 1
+    #     # if above[i][0] > above[i - 1][0]:
+    #     #     temp = above[i]
+    #     #     above[i] = above[i - 1]
+    #     #     above[i - 1] = temp
+    #     for j in range(len(above)):
+    #         if above[i][0] <
+    #
 
     newMap += below
     newMap += above
