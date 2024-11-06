@@ -1,0 +1,92 @@
+% My first document
+\documentclass[12pt]{scrartcl}
+\title{First steps in \LaTeX}
+\author{John Doe
+	\thanks{Third year CMP student}}
+% End of preamble, beginning of document
+	
+% end of pramble, beginning of document
+\begin{document}
+	\maketitle
+	\begin{abstract}
+	The Life of Brian is not really interesting but I am
+	paid to do this job. No one would remember Brian’s
+	life if not for a mad lecturer who used it as an
+	illustrative example in a tutorial at the University
+	of East Anglia.
+	\\
+	\section{Introduction}
+	Everyone knows, even the dumbest reader, that Brian was
+	an ordinary bloke.
+	\section{Infancy}
+	As Albert Einstein, Brian was a late developer, except
+	that, contrary to Einstein, Brian never developed very
+	much.
+	
+	\subsection{Before the age of six}
+	Absolutely nothing happened to Brian until the age of
+	six\ldots{} and not much after.
+	\subsubsection{Do we need to elaborate?}
+	No!
+	\section*{Acknowledgement}
+	The help of the Brian Trust was unvaluable in writing
+	this paper.
+	
+	As Albert Einstein, Brian was a late developer, except
+	that, contrary to Einstein, Brian \emph{never} developed very
+	much\footnote{According to his tutor Albert Einstein.}.
+	\end{abstract}
+	
+	When you write a
+	paragraph with \LaTeX{} you do not need to
+take care of it.
+% new paragraph when one or more blank lines
+
+When \LaTeX{} encounters a blank line
+the current paragraph finishes.
+Next time it finds some text it starts a new paragraph.
+
+List of things to do:\\
+Learn \LaTeX, practice with \LaTeX ,
+become a \LaTeX{}pert,
+write a book on \LaTeX ,
+bore the pants of students with \LaTeX.
+
+I am 100\% sure you’ll have no problem
+using \LaTeX{} \ldots{} I am prepared to bet
+1\pounds on it (I am not mad!).
+
+"This is an incorrectly formatted quote".
+‘‘This is a correctly formatted quote’’
+
+A simple table:
+\begin{center}
+	\begin{tabular}{clr}
+		centred & left & right \\
+		C & L & R \\
+		111 & 222 & 333
+	\end{tabular}
+\end{center}
+
+
+A simple table:
+\begin{center}
+	\begin{tabular}{clr} \hline
+		centred & left & right \\ \hline\hline
+		C & L & R \\
+		111 & 222 & 333 \\ \hline
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\begin{tabular}{|l|r|r|r|r|} \cline{2-5}
+		\multicolumn{1}{c}{} & \multicolumn{2}{|c|}{CPU} &
+		\multicolumn{2}{|c|}{Iteration} \\ \hline
+		Test problem & average & maximum & average & maximum \\
+		\hline \hline
+		Norwich100 & 10.1 & 121.2 & 212 & 2333 \\
+		London123 & 7.2 & 61.3 & 110 & 650 \\
+		\hline
+	\end{tabular}
+\end{center}
+\end{document}

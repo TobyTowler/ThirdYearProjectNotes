@@ -15,7 +15,7 @@ Python
     - 2d array of outside points
     - look at paper Edwin sent to teams for open source path algorithm
 
-
+- K angle shape algorithm
 Starting to move, find ideal path, robot is somewhere on that path, go from there - still optimal
 
 
