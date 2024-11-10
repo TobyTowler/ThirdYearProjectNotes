@@ -38,7 +38,7 @@ def calcAngle(p1, p2):
     return math.tan((p1.Y - p2.Y) - (p1.X - p2.X))
 
 
-def grahamScan(points):
+def sortPoints(points):
     hull = []
     points.sort(key=lambda x: x.Y)
     printPoints(points)
@@ -52,6 +52,8 @@ def grahamScan(points):
 
     points.sort(key=lambda x: x.angle)
     printPoints(points)
+    hull += points
+    return hull
 
 
 def drawPoints(arr):
@@ -63,11 +65,14 @@ def drawPoints(arr):
     turtle.goto(arr[0].X, arr[0].Y)
     turtle.exitonclick()
 
+def AcceptPoints(points):
+    
+
 
 def main():
     map = genPoints(10)
-    grahamScan(map)
-    drawPoints(map)
+    hull = sortPoints(map)
+    drawPoints(hull)
 
 
 main()
