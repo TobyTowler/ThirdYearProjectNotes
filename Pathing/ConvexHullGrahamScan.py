@@ -25,11 +25,11 @@ def printPoints(points):
     print("\n\n")
 
 
-def genPoints(num):
+def genPoints(num, P: Point, size):
     points = []
     for i in range(num):
-        randX = random.randint(0, 300)
-        randY = random.randint(0, 300)
+        randX = random.randint(P.X + 1, P.X + size)
+        randY = random.randint(P.Y + 1, P.Y + size)
         points.append(Point(randX, randY))
     return points
 
@@ -38,8 +38,8 @@ def calcAngle(p1, p2):
     return math.atan((p2.Y - p1.Y) / (p2.X - p1.X))
 
 
-def sortPoints(points):
-    hull = [Point(0, 0)]
+def sortPoints(points, origin):
+    hull = [origin]
 
     points.sort(key=lambda x: x.Y)
     printPoints(points)
@@ -55,18 +55,30 @@ def sortPoints(points):
 
 
 def drawPoints(arr):
-    turtle.penup()
-    for n in arr:
-        turtle.goto(n.X, n.Y)
-        turtle.pendown()
-
-    turtle.goto(arr[0].X, arr[0].Y)
+    for i in arr:
+        turtle.penup()
+        for n in i:
+            turtle.goto(n.X, n.Y)
+            turtle.pendown()
+        turtle.goto(i[0].X, i[0].Y)
     turtle.exitonclick()
 
 
 def main():
-    map = genPoints(4)
-    hull = sortPoints(map)
+    hull = []
+
+    Origin = Point(0, 0)
+    map = genPoints(8, Origin, 400)
+    hull.append(sortPoints(map, Origin))
+
+    hole1Base = Point(100, 100)
+    hole1Points = genPoints(5, hole1Base, 50)
+    hull.append(sortPoints(hole1Points, hole1Base))
+
+    hole2Base = Point(150, 50)
+    hole2Points = genPoints(3, hole2Base, 30)
+    hull.append(sortPoints(hole2Points, hole2Base))
+
     drawPoints(hull)
 
 
