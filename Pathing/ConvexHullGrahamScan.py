@@ -65,7 +65,7 @@ def drawPoints(arr):
 
 
 def main():
-    map = genPoints(10)
+    map = genPoints(4)
     hull = sortPoints(map)
     drawPoints(hull)
 
