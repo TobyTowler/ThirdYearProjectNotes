@@ -1,3 +1,4 @@
+import fields2cover as f2c
 import random
 import math
 import turtle
@@ -67,9 +68,9 @@ def drawPoints(arr):
 def main():
     hull = []
 
-    Origin = Point(0, 0)
-    map = genPoints(8, Origin, 400)
-    hull.append(sortPoints(map, Origin))
+    Origin = Point(20, 20)
+    field = genPoints(8, Origin, 400)
+    hull.append(sortPoints(field, Origin))
 
     hole1Base = Point(100, 100)
     hole1Points = genPoints(5, hole1Base, 50)
@@ -79,7 +80,23 @@ def main():
     hole2Points = genPoints(3, hole2Base, 30)
     hull.append(sortPoints(hole2Points, hole2Base))
 
-    drawPoints(hull)
+    # drawPoints(hull)
+
+    map = []
+    for i in hull:
+        ring = f2c.LinearRing()
+        for j in i:
+            # p = f2c.Point(j.X, j.Y)
+            ring.addGeometry(f2c.Point(j.X, j.Y))
+        ring.addPoint(f2c.Point(i[0].X, i[0].Y))
+        map.append(ring)
+
+    print(len(map))
+    f2c.Visualizer.figure()
+    for i in map:
+        f2c.Visualizer.plot(i)
+    f2c.Visualizer.show()
+    # f2c.Visualizer.save("Tutorial_image.png")
 
 
 main()
