@@ -33,6 +33,7 @@ def main():
     hole = rand.generateRandCell(121, 4)
     # hole1 = hole.getField()
     cell = field.getField()
+    print(cell)
     # cell = f2c.Cell()
 
     # cells = fieldConfig(6)
