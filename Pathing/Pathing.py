@@ -5,41 +5,16 @@ import math
 
 def mowerConfig(length, width):
     mower = f2c.Robot(length, width)
+    mower.setMinTurningRadius(2)  # m
+    mower.setMaxDiffCurv(0.1)  # 1/m^2
     return mower
 
 
-def fieldConfig():
-    rand = f2c.Random(42)
-    field = rand.generateRandField(1e4, 5)
-    cell = field.getField()
-    return cell, field
-
-
-def headlandGen(cells, mower):
-    const_hl = f2c.HG_Const_gen()
-    no_hl = const_hl.generateHeadlands(cells, 3.0 * mower.getWidth())
-    return no_hl
-
-
-def swatchGen(mower, no_hl):
-    n_swath = f2c.OBJ_NSwath()
-    bf_sw_gen = f2c.SG_BruteForce()
-    swaths_bf_nswath = bf_sw_gen.generateBestSwaths(
-        n_swath, mower.getCovWidth(), no_hl.getGeometry(0)
-    )
-    return swaths_bf_nswath
-
-
-def routeGen(cells, robot):
-    const_hl = f2c.HG_Const_gen()
-    mid_hl = const_hl.generateHeadlands(cells, 1.5 * robot.getWidth())
-    no_hl = const_hl.generateHeadlands(cells, 3.0 * robot.getWidth())
-    bf = f2c.SG_BruteForce()
-    swaths = bf.generateSwaths(math.pi / 2.0, robot.getCovWidth(), no_hl)
-    route_planner = f2c.RP_RoutePlannerBase()
-    route = route_planner.genRoute(mid_hl, swaths)
-
-    return route
+def fieldConfig(angles):
+    rand = f2c.Random()
+    field = rand.generateRandField(1e4, angles)
+    cells = field.getField()
+    return cells
 
 
 def drawCell(arr):
@@ -51,19 +26,32 @@ def drawCell(arr):
 
 
 def main():
-    mower = mowerConfig(2, 5)
-    fieldToCalc, fieldToDraw = fieldConfig()
-    headland = headlandGen(fieldToCalc, mower)
+    mower = mowerConfig(2.0, 5.0)
 
-    arrToDraw = [fieldToDraw, headland]
-    # drawCell(arrToDraw)
+    rand = f2c.Random(42)
+    field = rand.generateRandField(1e4, 6)
+    hole = rand.generateRandCell(121, 4)
+    # hole1 = hole.getField()
+    cell = field.getField()
+    # cell = f2c.Cell()
 
-    swaths = swatchGen(mower, headland)
-    # arrToDraw.append(swaths)
+    # cells = fieldConfig(6)
 
-    route = routeGen(fieldToCalc, mower)
-    arrToDraw.append(route)
-    drawCell(arrToDraw)
+    const_hl = f2c.HG_Const_gen()
+    no_hl = const_hl.generateHeadlands(cell, 3.0 * mower.getWidth())
+
+    bf = f2c.SG_BruteForce()
+    swaths = bf.generateSwaths(math.pi, mower.getCovWidth(), no_hl.getGeometry(0))
+    snake_sorter = f2c.RP_Snake()
+    swaths = snake_sorter.genSortedSwaths(swaths)
+
+    path_planner = f2c.PP_PathPlanning()
+    dubins_cc = f2c.PP_DubinsCurvesCC()
+    path_dubins_cc = path_planner.planPath(mower, swaths, dubins_cc)
+
+    drawCell([cell, swaths, no_hl, path_dubins_cc])
+    print(cell[0].area())
+    print(path_dubins_cc)
 
 
 main()
