@@ -4,8 +4,7 @@ import math
 import turtle
 
 """
-Mapping algorithm based on the first half of a Graham scan for a convex hull
-the loewst point is selected as the origin
+Mapping algorithm based on the first half of a Graham scan for a convex hull the loewst point is selected as the origin
 from then points are sorted by polar angle to the origin
 this gives a complete shape with no overlaps
 """
