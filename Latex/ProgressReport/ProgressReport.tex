@@ -22,12 +22,12 @@
 \maketitle
 
 \section{Introduction}
-This "Agri Robot" was created by several masters students, I am improving the mapping and pathing side of this project.
-The robot will be able to take in a map and path. Both will be made up of lists of 2D points. Using other modules, the robot will be able to accurately
-
+This "Agri Robot" was created by several masters students in a previous year.
+I am working in a team to continue its development into a fully functioning product.
+The robot is designed to function as an automated lawnmower, taking in a virtual map and mowing the entire area efficiently and accurately.
 The final aim of this project is to have a finished, publishable and sellable product that could be used in the real world.
 
-I have a few smaller goals to complete my part:
+The tasks I have been working on so far are:
 \begin{enumerate}
 	\item {Random map generation}
 	\item {Pathing}
@@ -52,59 +52,98 @@ My solution was the following:
 	\item{Select origin point with lowest y value}
 	\item{Sort remaining points by polar angle to the origin point}
 \end{enumerate}
+
 This always produces a full polygon that never overlaps and can have any number of vertices where n > 2.
 For simplicity, I used a fixed origin of (0, 0) and generate points with positive x and y coordinates. Although the algorithm could be adapted to work with all random points.
 The polar angle method comes from the Graham Scan for making a convex hull. My algorithm is based on the first part of this idea.
 This algorithm is repeated for the outline and the holes in the field, due to the varying number of vertices and random point generation, all polygons in the field can be different.
 
-\subsection{Fields2Cover Mapping}
+\subsubsection{Fields2Cover Mapping}
 Fields2Cover (F2C) is a Complete Coverage Path Planning (CCPP) open source library. I used this library primarily for CCPP, but it also has methods to generate fields of its own,
 Which I used this for testing the F2C pathing solutions.
+
 This method words by taking parameters for the area of the field and the number of vertices required.
 There are no essential differences to using the F2C maps or my own algorithm as they both return a collection of 2-dimensional points meaning that the CCPP solution should be able to work with either map as input.
 
 \subsection{Complete Coverage Path Planning}
 Complete coverage path planning (CCPP) is the process of making a path for an object of width x to traverse an area while covering all points of the given area.
 This is important for the agri robot as it needs to mow an entire area of grass leaving no area uncut to be a successful product.
+
+My advisor showed me a paper tackling this problem with an open source library linked to it.
+The library is called Fields2Cover (F2C), it is written in C++ and available as a C++ or python library.
 At the beginning of trying to use the library, I had several compilation errors when trying to build from source.
-I was able to fix the issues myself and then submit a GitHub pull request that was later approved, making now a contributor to this open source project.
+I was able to fix the issues myself and then submit a GitHub pull request that was later approved, meaning I am now a contributor of this open source project.
 
 After fixing these issues, I was able to use the library to generate CCPP solutions to inputs of any map.
-This library also allows easy configuration of the sizing, turning circle and velocities of the robot input.
-Altering any of these will alter the path to give another usable solution to the problem
+There are several options to differ the final path making this a very flexible solution for a number of different applications
+This library also allows easy configuration of the sizing, turning circle and velocities of the object to follow the path.
+
+\subsection{Map Generation From An Aerial Image}
+The idea of this task is that a drone could fly above an area and a suitable map be automatically generated with no user input.
+
+As I have currently only just completed the CCPP problem, I have very little to show for this task.
+I found some papers to read while doing previous research for mapping, reading these will be my next step as I try to find an appropriate algorithm.
 
 
 
 
+\newpage
 \begin{appendix}
-	\section{Appendix: Additional Figures}
+	\section{Appendix: 2.1 Mapping}
 
-	\begin{figure}[ht]
-		% \begin{figure} [ht]{width =\textwidth}
+	\begin{figure}[H]
+		\centering
+		% First image
 		\begin{minipage}[b]{0.45\textwidth} % Adjust width (e.g., 0.45\textwidth)
-			% \centering
-			\includegraphics[width=1\textwidth]{FirstMappingSmall.jpg}
-			\caption{Random map generation with a small number of vertices}
-			\label{fig:image1}
+			\centering
+			\includegraphics[width=\textwidth]{images/FirstMappingSmall.jpg}
+			\caption{Polar angle method with 4 vertices}
+		\end{minipage}
+		\hfill
+		% Second image
+		\begin{minipage}[b]{0.45\textwidth} % Adjust width (e.g., 0.45\textwidth)
+			\centering
+			\includegraphics[width=\textwidth]{images/FirstMappingLarge.jpg}
+			\caption{Polar angle method with 20 vertices}
+		\end{minipage}
+		\vspace{1em} % Space between rows of images
+
+		% Third image
+		\begin{minipage}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{images/FirstMappingLargeHoles.jpg}
+			\caption{Polar angle method with 2 holes}
+		\end{minipage}
+		\hfill
+
+	\end{figure}
+
+	\section{Appendix: 2.2 F2C Mapping}
+	Note: Fields2Cover has its own drawing function which is used here
+
+	\begin{figure}[H]
+		\centering
+		\begin{minipage}[b]{0.75\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{images/f2cMappingRandom.jpg}
+			\caption{F2C randomly generated field with area 1e5 and 5 vertices}
 		\end{minipage}
 
-		\centering
-		\includegraphics[width=0.8\textwidth]{FirstMappingLarge.jpg}
-		\caption{Random map generation with many vertices}
-		\label{fig:image2}
+		\hfill
+		\vspace{1em}
+
+		\begin{minipage}[b]{0.75\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{images/f2cMappingHoles.jpg}
+			\caption{F2C field plotted with 2 holes}
+		\end{minipage}
+
+		\hfill
+
 	\end{figure}
-
-
-	\begin{figure}[b]{0.6\textwidth}
-		\centering
-		\includegraphics[width=0.8\textwidth]{FirstMappingLargeHoles.jpg}
-		\caption{Random map generation with many vertices}
-		\label{fig:image2}
-	\end{figure}
-
 \end{appendix}
 
 \bibliographystyle{apalike}
-\bibliography{your_bib_file} % Ensure your BibTeX file is named appropriately
+\bibliography{your_bib_file}
 
 \end{document}
