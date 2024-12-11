@@ -5,6 +5,7 @@
 \usepackage{color}
 \usepackage{pdfpages}
 \usepackage{graphicx}
+\usepackage[title,titletoc,toc]{appendix}
 
 % Add necessary details
 \title{Agri Robot Mapping and Pathing Progress Report}
@@ -65,11 +66,43 @@ There are no essential differences to using the F2C maps or my own algorithm as 
 \subsection{Complete Coverage Path Planning}
 Complete coverage path planning (CCPP) is the process of making a path for an object of width x to traverse an area while covering all points of the given area.
 This is important for the agri robot as it needs to mow an entire area of grass leaving no area uncut to be a successful product.
+At the beginning of trying to use the library, I had several compilation errors when trying to build from source.
+I was able to fix the issues myself and then submit a GitHub pull request that was later approved, making now a contributor to this open source project.
+
+After fixing these issues, I was able to use the library to generate CCPP solutions to inputs of any map.
+This library also allows easy configuration of the sizing, turning circle and velocities of the robot input.
+Altering any of these will alter the path to give another usable solution to the problem
 
 
 
 
-% Add more sections as needed
+\begin{appendix}
+	\section{Appendix: Additional Figures}
+
+	\begin{figure}[ht]
+		% \begin{figure} [ht]{width =\textwidth}
+		\begin{minipage}[b]{0.45\textwidth} % Adjust width (e.g., 0.45\textwidth)
+			% \centering
+			\includegraphics[width=1\textwidth]{FirstMappingSmall.jpg}
+			\caption{Random map generation with a small number of vertices}
+			\label{fig:image1}
+		\end{minipage}
+
+		\centering
+		\includegraphics[width=0.8\textwidth]{FirstMappingLarge.jpg}
+		\caption{Random map generation with many vertices}
+		\label{fig:image2}
+	\end{figure}
+
+
+	\begin{figure}[b]{0.6\textwidth}
+		\centering
+		\includegraphics[width=0.8\textwidth]{FirstMappingLargeHoles.jpg}
+		\caption{Random map generation with many vertices}
+		\label{fig:image2}
+	\end{figure}
+
+\end{appendix}
 
 \bibliographystyle{apalike}
 \bibliography{your_bib_file} % Ensure your BibTeX file is named appropriately
