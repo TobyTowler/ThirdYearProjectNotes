@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.11.11)  11 DEC 2024 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.11.11)  11 DEC 2024 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1201,7 +1201,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 24.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 43.
+(Font)              scaled to size 12.9599pt on input line 44.
  [2] [3] [4]
 
 Class scrartcl Warning: You are using `\begin{appendix}...\end{appendix}'.
@@ -1215,33 +1215,33 @@ Class scrartcl Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrartcl)              inconsistent.
 (scrartcl)              Because of this, you should remove `\end{appendix}'
 (scrartcl)              and replace `\begin{appendix}' by command
-(scrartcl)              `\appendix' on input line 91.
+(scrartcl)              `\appendix' on input line 109.
 
-<images/FirstMappingSmall.jpg, id=40, 395.4775pt x 403.5075pt>
+<images/FirstMappingSmall.jpg, id=44, 395.4775pt x 403.5075pt>
 File: images/FirstMappingSmall.jpg Graphic file (type jpg)
 <use images/FirstMappingSmall.jpg>
-Package pdftex.def Info: images/FirstMappingSmall.jpg  used on input line 99.
+Package pdftex.def Info: images/FirstMappingSmall.jpg  used on input line 116.
 (pdftex.def)             Requested size: 188.21289pt x 192.03748pt.
-<images/FirstMappingLarge.jpg, id=41, 443.6575pt x 400.49625pt>
+<images/FirstMappingLarge.jpg, id=45, 443.6575pt x 400.49625pt>
 File: images/FirstMappingLarge.jpg Graphic file (type jpg)
 <use images/FirstMappingLarge.jpg>
-Package pdftex.def Info: images/FirstMappingLarge.jpg  used on input line 106.
+Package pdftex.def Info: images/FirstMappingLarge.jpg  used on input line 122.
 (pdftex.def)             Requested size: 188.21289pt x 169.90004pt.
-<images/FirstMappingLargeHoles.jpg, id=42, 420.57124pt x 423.5825pt>
+<images/FirstMappingLargeHoles.jpg, id=46, 420.57124pt x 423.5825pt>
 File: images/FirstMappingLargeHoles.jpg Graphic file (type jpg)
 <use images/FirstMappingLargeHoles.jpg>
 Package pdftex.def Info: images/FirstMappingLargeHoles.jpg  used on input line 
-114.
+129.
 (pdftex.def)             Requested size: 188.21289pt x 189.5633pt.
-<images/f2cMappingRandom.jpg, id=43, 804.00375pt x 835.12pt>
+<images/f2cMappingRandom.jpg, id=47, 804.00375pt x 835.12pt>
 File: images/f2cMappingRandom.jpg Graphic file (type jpg)
 <use images/f2cMappingRandom.jpg>
-Package pdftex.def Info: images/f2cMappingRandom.jpg  used on input line 128.
+Package pdftex.def Info: images/f2cMappingRandom.jpg  used on input line 143.
 (pdftex.def)             Requested size: 313.69029pt x 325.8229pt.
-<images/f2cMappingHoles.jpg, id=44, 809.0225pt x 414.54875pt>
+<images/f2cMappingHoles.jpg, id=48, 809.0225pt x 414.54875pt>
 File: images/f2cMappingHoles.jpg Graphic file (type jpg)
 <use images/f2cMappingHoles.jpg>
-Package pdftex.def Info: images/f2cMappingHoles.jpg  used on input line 137.
+Package pdftex.def Info: images/f2cMappingHoles.jpg  used on input line 152.
 (pdftex.def)             Requested size: 313.69029pt x 160.73718pt.
 [5 <./images/FirstMappingSmall.jpg (PNG copy)> <./images/FirstMappingLarge.jpg 
 (PNG copy)> <./images/FirstMappingLargeHoles.jpg (PNG copy)>]
@@ -1249,28 +1249,67 @@ Overfull \vbox (15.02953pt too high) has occurred while \output is active []
 
 
 [6 <./images/f2cMappingRandom.jpg (PNG copy)> <./images/f2cMappingHoles.jpg (PN
-G copy)>]
-No file ProgressReport.bbl.
+G copy)>] (./ProgressReport.bbl
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.79993pt on input line 9.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+) [7]
 (./ProgressReport.aux)
 Package rerunfilecheck Info: File `ProgressReport.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34760 strings out of 476034
- 764551 string characters out of 5792853
+ 34869 strings out of 476034
+ 766513 string characters out of 5792853
  1861388 words of memory out of 6000000
- 54680 multiletter control sequences out of 15000+600000
- 537911 words of font info for 51 fonts, out of 8000000 for 9000
+ 54760 multiletter control sequences out of 15000+600000
+ 549057 words of font info for 71 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 122i,18n,120p,10665b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,18n,120p,10665b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb>
-Output written on ProgressReport.pdf (6 pages, 108452 bytes).
+e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb>
+Output written on ProgressReport.pdf (7 pages, 118212 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
