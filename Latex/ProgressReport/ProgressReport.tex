@@ -1,0 +1,77 @@
+\documentclass[progress]{cmpreport}
+
+\usepackage{rotating}
+\usepackage{subfloat}
+\usepackage{color}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+
+% Add necessary details
+\title{Agri Robot Mapping and Pathing Progress Report}
+\author{Toby Towler}
+\registration{100395626}
+\supervisor{Edwin Ren}
+\ccode{CMP-6013Y}
+
+\summary{This document provides an overview of my 12-week progress working on the "Agri Robot" project. I have been working on the pathing and mapping sections}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This "Agri Robot" was created by several masters students, I am improving the mapping and pathing side of this project.
+The robot will be able to take in a map and path. Both will be made up of lists of 2D points. Using other modules, the robot will be able to accurately
+
+The final aim of this project is to have a finished, publishable and sellable product that could be used in the real world.
+
+I have a few smaller goals to complete my part:
+\begin{enumerate}
+	\item {Random map generation}
+	\item {Pathing}
+	\item {Map generation from an aerial image}
+\end{enumerate}
+
+My motivation for this project is to make it run as fast and efficiently as possible, allowing to be run on the lowest specification hardware possible.
+In a real world business context this would mean the products cost would be lowered.
+
+
+
+\section{Progress}
+\subsection{Mapping}
+It is important to be able to test the robot's coverage of an area with many shapes of field to ensure it always works on any given area.
+So there must be a way to generate maps to test all steps of the process on
+Firstly, I had to build an algorithm to generate maps to represent fields. The maps are made up of the outline of the main field,
+and a series of "holes" these would be trees or telegraph poles in real life, areas in the field that must be avoided by the robot.
+
+My solution was the following:
+\begin{enumerate}
+	\item{Generate n random (x, y) points}
+	\item{Select origin point with lowest y value}
+	\item{Sort remaining points by polar angle to the origin point}
+\end{enumerate}
+This always produces a full polygon that never overlaps and can have any number of vertices where n > 2.
+For simplicity, I used a fixed origin of (0, 0) and generate points with positive x and y coordinates. Although the algorithm could be adapted to work with all random points.
+The polar angle method comes from the Graham Scan for making a convex hull. My algorithm is based on the first part of this idea.
+This algorithm is repeated for the outline and the holes in the field, due to the varying number of vertices and random point generation, all polygons in the field can be different.
+
+\subsection{Fields2Cover Mapping}
+Fields2Cover (F2C) is a Complete Coverage Path Planning (CCPP) open source library. I used this library primarily for CCPP, but it also has methods to generate fields of its own,
+Which I used this for testing the F2C pathing solutions.
+This method words by taking parameters for the area of the field and the number of vertices required.
+There are no essential differences to using the F2C maps or my own algorithm as they both return a collection of 2-dimensional points meaning that the CCPP solution should be able to work with either map as input.
+
+\subsection{Complete Coverage Path Planning}
+Complete coverage path planning (CCPP) is the process of making a path for an object of width x to traverse an area while covering all points of the given area.
+This is important for the agri robot as it needs to mow an entire area of grass leaving no area uncut to be a successful product.
+
+
+
+
+% Add more sections as needed
+
+\bibliographystyle{apalike}
+\bibliography{your_bib_file} % Ensure your BibTeX file is named appropriately
+
+\end{document}
