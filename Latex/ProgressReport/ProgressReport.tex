@@ -6,6 +6,8 @@
 \usepackage{pdfpages}
 \usepackage{graphicx}
 \usepackage[title,titletoc,toc]{appendix}
+\usepackage{hyperref}
+\usepackage{soul}
 
 \title{Agri Robot Mapping and Pathing Progress Report}
 \author{Toby Towler}
@@ -24,6 +26,9 @@
 This "Agri Robot" was created by several masters students in a previous year,
 I am working in a team to continue its development into a fully functioning product.
 The robot is designed to function as an automated lawnmower, taking in a virtual map and mowing the entire area efficiently and accurately.
+The robot will use an RTK chip to determine its location, as well as wheel odometry.
+It will be able to detect its surroundings using a combination of LiDAR and camera technology, using these inputs to alter its path when necessary, for example if there is an animal in its path.
+By the end, the robot should be able to know where it is, what's around it and where it's going next to a high degree of accuracy.
 The final aim of this project is to have a finished, publishable and sellable product that could be used in the real world.
 
 The tasks I have been working on so far are:
@@ -53,15 +58,16 @@ My solution was the following:
 	\item{Sort remaining points by polar angle to the origin point}
 \end{enumerate}
 
-This always produces a full polygon that never overlaps and can have any number of vertices where n > 2.
+This always produces a full polygon that never overlaps and can have any number of vertices where \hyperref[Mapping]{2}
 For simplicity, I used a fixed origin of (0, 0) and generate points with positive x and y coordinates. Although the algorithm could be adapted to work with all random points.
-The polar angle method comes from the Graham Scan for making a convex hull. My algorithm is based on the first part of this idea.
+The polar angle method comes from the Graham Scan for a convex hull \cite{geeksforgeeks2023}.
+My algorithm is based on the first part of this idea.
 This algorithm is repeated for the outline and the holes in the field, due to the varying number of vertices and random point generation, all polygons in the field can be different.
 
 
 \subsubsection{Fields2Cover Mapping}
 Fields2Cover (F2C) is a Complete Coverage Path Planning (CCPP) open source library, see next section.
-I used this library primarily for CCPP, but it also has methods to generate fields of its own,
+I used this library primarily for CCPP, but it also has methods to generate \hyperref[F2CMapping]{fields of its own},
 Which I used this for testing the F2C pathing solutions.
 
 This method words by taking parameters for the area of the field and the number of vertices required.
@@ -108,6 +114,7 @@ If this does happen, I will need to change the way that my solution is implement
 \begin{appendix}
 	\section{Appendix: 2.1 Mapping}
 
+	\label{Mapping}
 	\begin{figure}[H]
 		\centering
 		\begin{minipage}[b]{0.45\textwidth}
@@ -133,6 +140,7 @@ If this does happen, I will need to change the way that my solution is implement
 	\end{figure}
 
 	\section{Appendix: 2.2 F2C Mapping}
+	\label{F2CMapping}
 	Note: Fields2Cover has its own drawing function which is used here
 
 	\begin{figure}[H]

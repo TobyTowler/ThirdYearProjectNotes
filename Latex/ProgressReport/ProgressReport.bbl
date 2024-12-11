@@ -8,4 +8,11 @@ Fields2Cover (2023).
 \newblock GitHub.
 \newblock Available at: \url{https://github.com/Fields2Cover/Fields2Cover}.
 
+\bibitem[GeeksforGeeks, 2023]{geeksforgeeks2023}
+GeeksforGeeks (2023).
+\newblock Convex hull using graham scan.
+\newblock Available at: \url{
+  https://www.geeksforgeeks.org/convex-hull-using-graham-scan/}.
+\newblock Accessed: 2023-12-11.
+
 \end{thebibliography}
