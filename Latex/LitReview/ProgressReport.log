@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.11.11)  9 DEC 2024 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.11.11)  9 DEC 2024 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**template.tex
-(./template.tex
+**../ProgressReport/ProgressReport.tex
+(../ProgressReport/ProgressReport.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./cmpreport.cls
 Document Class: cmpreport 22/08/2020 v5.41 (Pierre Chardaire) Third year Projec
@@ -979,13 +979,17 @@ File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \gtt@calendar@startofweek=\count359
 \gtt@left@slot=\count360
 \gtt@right@slot=\count361
-)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pagesel/pagesel.sty
+Package: pagesel 2020-08-03 v1.10 Select pages of a document for output (HO)
+\c@ps@count=\count362
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count362
+\c@r@tfl@t=\count363
 \rotFPtop=\skip87
 \rotFPbot=\skip88
 \rot@float@box=\box82
@@ -1009,15 +1013,15 @@ Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count363
-\calc@Bcount=\count364
+\calc@Acount=\count364
+\calc@Bcount=\count365
 \calc@Adimen=\dimen301
 \calc@Bdimen=\dimen302
 \calc@Askip=\skip89
 \calc@Bskip=\skip90
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count365
+\calc@Ccount=\count366
 \calc@Cskip=\skip91
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -1032,50 +1036,49 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count366
+\pdfpages@includegraphics@status=\count367
 \AM@pagebox=\box83
 \AM@global@opts=\toks39
-\AM@pagecnt=\count367
+\AM@pagecnt=\count368
 \AM@toc@title=\toks40
 \AM@lof@heading=\toks41
-\c@AM@survey=\count368
+\c@AM@survey=\count369
 \AM@templatesizebox=\box84
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 121.
+h' as default language. on input line 18.
 
-(./template.aux)
-\openout1 = `template.aux'.
+No file ProgressReport.aux.
+\openout1 = `ProgressReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-Package scrbase Info: activating english \abstractname on input line 121.
-Package scrbase Info: activating english \partname on input line 121.
-Package scrbase Info: activating english \figurename on input line 121.
-Package scrbase Info: activating english \tablename on input line 121.
-Package scrbase Info: activating english \contentsname on input line 121.
-Package scrbase Info: activating english \listfigurename on input line 121.
-Package scrbase Info: activating english \listtablename on input line 121.
-Package scrbase Info: activating english \refname on input line 121.
-Package scrbase Info: activating english \indexname on input line 121.
-Package tocbasic Info: usage of `tocbibind' detected on input line 121.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+Package scrbase Info: activating english \abstractname on input line 18.
+Package scrbase Info: activating english \partname on input line 18.
+Package scrbase Info: activating english \figurename on input line 18.
+Package scrbase Info: activating english \tablename on input line 18.
+Package scrbase Info: activating english \contentsname on input line 18.
+Package scrbase Info: activating english \listfigurename on input line 18.
+Package scrbase Info: activating english \listtablename on input line 18.
+Package scrbase Info: activating english \refname on input line 18.
+Package scrbase Info: activating english \indexname on input line 18.
+Package tocbasic Info: usage of `tocbibind' detected on input line 18.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1110,18 +1113,23 @@ Package tocbasic Info: usage of `tocbibind' detected on input line 121.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/base/8r.enc}
+
+
+]
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count369
+\scratchcounter=\count370
 \scratchdimen=\dimen308
 \scratchbox=\box85
-\nofMPsegments=\count370
-\nofMParguments=\count371
+\nofMPsegments=\count371
+\nofMParguments=\count372
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count372
+\MPscratchCnt=\count373
 \MPscratchDim=\dimen309
-\MPnumerator=\count373
-\makeMPintoPDFobject=\count374
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
 \everyMPtoPDFconversion=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1132,11 +1140,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 121.
-
-(./template.out) (./template.out)
+Package hyperref Info: Link coloring OFF on input line 18.
 \@outlinefile=\write4
-\openout4 = `template.out'.
+\openout4 = `ProgressReport.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -1145,14 +1151,14 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 121.
+(scrartcl)           before \begin{document} on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count375
+\BKM@id=\count376
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
@@ -1165,7 +1171,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 121.
+or `english'. on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -1178,297 +1184,47 @@ F (HO)
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/tex
-mf-dist/fonts/enc/dvips/base/8r.enc}
+))
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 22
+.
 
-
-]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 12
-4.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 124.
+(Font)              scaled to size 10.79993pt on input line 22.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 124.
+(Font)              scaled to size 10.79993pt on input line 22.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 124.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 126.
+(Font)              scaled to size 15.55188pt on input line 22.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 126.
+No file ProgressReport.bbl.
+[2] (./ProgressReport.aux)
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 126.
+Package rerunfilecheck Warning: File `ProgressReport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 126.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-26.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 13
-0.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-41.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 146.
- [2] [3]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-Package siunitx Info: Option "table-space-text-post" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "table-format" as a replacement.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4] [5] [6]
-<coolcat.jpg, id=76, 963.6pt x 1284.8pt>
-File: coolcat.jpg Graphic file (type jpg)
-<use coolcat.jpg>
-Package pdftex.def Info: coolcat.jpg  used on input line 291.
-(pdftex.def)             Requested size: 125.47739pt x 167.28471pt.
-File: coolcat.jpg Graphic file (type jpg)
-<use coolcat.jpg>
-Package pdftex.def Info: coolcat.jpg  used on input line 302.
-(pdftex.def)             Requested size: 81.9761pt x 109.29477pt.
-<bossycat.jpg, id=80, 1284.8pt x 851.18pt>
-File: bossycat.jpg Graphic file (type jpg)
-<use bossycat.jpg>
-Package pdftex.def Info: bossycat.jpg  used on input line 308.
-(pdftex.def)             Requested size: 164.79915pt x 109.17665pt.
-<frowningcat.jpg, id=81, 1284.8pt x 856.19875pt>
-File: frowningcat.jpg Graphic file (type jpg)
-<use frowningcat.jpg>
-Package pdftex.def Info: frowningcat.jpg  used on input line 314.
-(pdftex.def)             Requested size: 163.95224pt x 109.2586pt.
-
-Overfull \hbox (1.43758pt too wide) in paragraph at lines 300--319
-[][] [][] 
- []
-
-<scaredbabycat.jpg, id=82, 856.19875pt x 1284.8pt>
-File: scaredbabycat.jpg Graphic file (type jpg)
-<use scaredbabycat.jpg>
-Package pdftex.def Info: scaredbabycat.jpg  used on input line 322.
-(pdftex.def)             Requested size: 127.71283pt x 191.63344pt.
-<tiredcat.jpg, id=83, 1284.8pt x 854.19125pt>
-File: tiredcat.jpg Graphic file (type jpg)
-<use tiredcat.jpg>
-Package pdftex.def Info: tiredcat.jpg  used on input line 328.
-(pdftex.def)             Requested size: 288.59608pt x 191.87192pt.
-
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 320--333
-[][] [] 
- []
-
-
-Overfull \hbox (42.31604pt too wide) in paragraph at lines 339--340
-\T1/ptm/m/n/12 pendix []B[]. To com-pile this code you need to in-clude the com
--mand [][]\T1/pcr/m/n/12 \usepackage{rotating}
- []
-
-[7
-
- <./coolcat.jpg>] [8 <./bossycat.jpg> <./frowningcat.jpg> <./scaredbabycat.jpg>
- <./tiredcat.jpg>]
-Overfull \hbox (11.5358pt too wide) in paragraph at lines 347--348
-[][][]\T1/pcr/m/n/12 \ganttlink{elem0}{elem2} []\T1/ptm/m/n/12 cre-ates a link 
-from \T1/pcr/m/n/12 elem0 \T1/ptm/m/n/12 to \T1/pcr/m/n/12 elem2\T1/ptm/m/n/12 
-. \T1/pcr/m/n/12 elem0,
- []
-
-[9] [10] (./template.bbl
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.79993pt on input line 10.
-) [11
-
-]
-Overfull \hbox (7.74628pt too wide) in paragraph at lines 453--453
-[]                 \T1/pcr/m/n/10 \includegraphics[width=0.985\textwidth]{scare
-dbabycat}[] 
- []
-
-[12
-
-] [13
-
-] [14]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(28.45274pt, 540.60245pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 788.14145pt, 28.45274pt)
-* \paperwidth=597.50793pt
-* \paperheight=845.04694pt
-* \textwidth=540.60245pt
-* \textheight=788.14145pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-83.69225pt
-* \headheight=18.125pt
-* \headsep=21.75pt
-* \topskip=12.0pt
-* \footskip=50.75pt
-* \marginparwidth=48.6068pt
-* \marginparsep=12.8401pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (./marksheetlitrev.tex
-Underfull \hbox (badness 10000) in paragraph at lines 504--35
-
- []
-
-) [15
-
-
-] (./template.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: Checksums for `ProgressReport.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35599 strings out of 476034
- 780793 string characters out of 5792853
- 1906388 words of memory out of 6000000
- 55452 multiletter control sequences out of 15000+600000
- 590428 words of font info for 121 fonts, out of 8000000 for 9000
+ 34658 strings out of 476034
+ 762082 string characters out of 5792853
+ 1857388 words of memory out of 6000000
+ 54610 multiletter control sequences out of 15000+600000
+ 534084 words of font info for 48 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 122i,17n,120p,10659b,1188s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (15 pages, 1662815 bytes).
+ 122i,17n,120p,10683b,893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb>
+Output written on ProgressReport.pdf (2 pages, 43148 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

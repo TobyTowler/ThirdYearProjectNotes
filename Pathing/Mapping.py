@@ -61,18 +61,33 @@ def sortPoints(points, origin):
     return hull
 
 
-def drawCell(cell):
-    f2c.Visualizer.figure()
-    f2c.Visualizer.plot(cell)
-    f2c.Visualizer.show()
-    # f2c.Visualizer.save("Tutorial_image.pn
+# def drawCell(cell):
+# f2c.Visualizer.figure()
+# f2c.Visualizer.plot(cell)
+# f2c.Visualizer.show()
+# f2c.Visualizer.save("Tutorial_image.pn
+
+
+def draw_outline(points):
+    for i in points:
+        turtle.penup()
+        turtle.goto(i[0].X, i[0].Y)
+        turtle.pendown()
+
+        # Draw lines between points
+        for point in i[1:]:
+            turtle.goto(point.X, point.Y)
+
+        # Close the shape by connecting the last point to the first
+        turtle.goto(i[0].X, i[0].Y)
+    turtle.exitonclick()
 
 
 def main():
     hull = []
 
     origin = Point(20, 20)
-    field = genPoints(4, origin, 400)
+    field = genPoints(20, origin, 400)
     hull.append(sortPoints(field, origin))
 
     hole1Base = Point(100, 100)
@@ -82,23 +97,23 @@ def main():
     hole2Base = Point(150, 50)
     hole2Points = genPoints(3, hole2Base, 30)
     hull.append(sortPoints(hole2Points, hole2Base))
-
-    map = []
-    for i in hull:
-        ring = f2c.LinearRing()
-        for j in i:
-            # p = f2c.Point(j.X, j.Y)
-            ring.addGeometry(f2c.Point(j.X, j.Y))
-        cell = f2c.Cell()
-        ring.addPoint(f2c.Point(i[0].X, i[0].Y))
-        cell.addGeometry(ring)
-        allCells.addGeometry(cell)
-        map.append(ring)
-    cellMainField.addRing(map[0])
+    #
+    # map = []
+    # for i in hull:
+    #     ring = f2c.LinearRing()
+    #     for j in i:
+    #         # p = f2c.Point(j.X, j.Y)
+    #         ring.addGeometry(f2c.Point(j.X, j.Y))
+    #     cell = f2c.Cell()
+    #     ring.addPoint(f2c.Point(i[0].X, i[0].Y))
+    #     cell.addGeometry(ring)
+    #     allCells.addGeometry(cell)
+    #     map.append(ring)
+    # cellMainField.addRing(map[0])
 
     # print(len(map))
     # print("AREA: ", cell.area())
-    # drawCell(cell)
+    draw_outline(hull)
 
 
 cellMainField = f2c.Cell()

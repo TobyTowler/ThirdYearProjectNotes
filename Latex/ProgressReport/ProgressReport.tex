@@ -27,8 +27,8 @@ This "Agri Robot" was created by several masters students in a previous year,
 I am working in a team to continue its development into a fully functioning product.
 The robot is designed to function as an automated lawnmower, taking in a virtual map and mowing the entire area efficiently and accurately.
 The robot will use an RTK chip to determine its location, as well as wheel odometry.
-It will be able to detect its surroundings using a combination of LiDAR and camera technology, using these inputs to alter its path when necessary, for example if there is an animal in its path.
-By the end, the robot should be able to know where it is, what's around it and where it's going next to a high degree of accuracy.
+It will be able to detect its surroundings using a combination of LiDAR and camera technology, using these inputs to alter its path when necessary, for example if there is an animal in its inteded path.
+By the end of this project, the robot should be able to know where it is, what's around it and where it's going next to a high degree of accuracy.
 The final aim of this project is to have a finished, publishable and sellable product that could be used in the real world.
 
 The tasks I have been working on so far are:
@@ -38,7 +38,7 @@ The tasks I have been working on so far are:
 	\item {Map generation from an aerial image}
 \end{enumerate}
 
-My motivation for this project is to make it run as fast and efficiently as possible, on the lowest specification hardware possible.
+My motivation for this project is to make it run fast and efficiently, on the lowest specification hardware possible.
 The algorithms produced during this project should be efficient in terms of both memory and processing power while still completing the task to an acceptable standard.
 In a real world business context this would mean the production cost could be lowered, allowing either a lower selling price or higher profits.
 
@@ -46,10 +46,11 @@ In a real world business context this would mean the production cost could be lo
 
 \section{Progress}
 \subsection{Mapping}
-It is important to be able to test the robot's coverage of an area with many shapes of field to ensure it always works on any given area.
-So there must be a way to generate maps to test all steps of the process on
+The robot should be able to cover a full area regardless of the shape of the given input,
+So there must be a way to generate varying maps to test all steps of the process on.
+
 Firstly, I had to build an algorithm to generate maps to represent fields. The maps are made up of the outline of the main field,
-and a series of "holes" these would be trees or telegraph poles in real life, areas in the field that must be avoided by the robot.
+and can have a series of "holes" these would be trees or telegraph poles for example in real life, areas in the field that must be avoided by the robot.
 
 My solution was the following:
 \begin{enumerate}
@@ -58,7 +59,7 @@ My solution was the following:
 	\item{Sort remaining points by polar angle to the origin point}
 \end{enumerate}
 
-This always produces a full polygon that never overlaps and can have any number of vertices where \hyperref[Mapping]{2}
+This always produces a full polygon that never overlaps and can have any number of vertices where \hyperref[Mapping]{n < 2}
 For simplicity, I used a fixed origin of (0, 0) and generate points with positive x and y coordinates. Although the algorithm could be adapted to work with all random points.
 The polar angle method comes from the Graham Scan for a convex hull \cite{geeksforgeeks2023}.
 My algorithm is based on the first part of this idea.
@@ -82,7 +83,7 @@ The library is called Fields2Cover (F2C) \cite{fields2cover2023github}, it is wr
 At the beginning of trying to use the library, I had several compilation errors when trying to build from source.
 I was able to fix the issues myself and then submit a GitHub pull request that was later approved, meaning I am now a contributor of this open source project.
 
-After fixing these issues, I was able to use the library to generate CCPP solutions to inputs of any map.
+After fixing these issues, I was able to use the library to generate CCPP solutions to \hyperref[F2CCCPP]{inputs of any map.}
 There are several options to differ the final path making this a very flexible solution for a number of different applications
 This library also allows easy configuration of the sizing, turning circle and velocities of the object to follow the path.
 
@@ -99,7 +100,7 @@ This was especially bad when the F2C source code did not compile, as this is the
 I spent a lot of time changing header files as well as C++ and Python build files in order to get it to finally work,
 because of this it took me a lot longer to implement some features than I would have liked.
 
-If the papers I have found so far do not prove very useful to this application,
+If the papers I have found so far for the aerial mapping problem do not prove very useful to this application,
 This issue could repeat causing me to spend more time researching instead of adding features to the system.
 Should this occur, I will analyze and talk to my team about if it would be better to move onto another feature where I could use my time more efficiently.
 If the issue proves too hard to implement, I will also do this.
@@ -112,8 +113,9 @@ If this does happen, I will need to change the way that my solution is implement
 
 \begin{figure}[h]
 	\noindent\makebox[\textwidth]{
-		\includegraphics[width=1.4\textwidth]{images/Ganttchartfinal.png}}
+		\includegraphics[width=1.4\textwidth]{images/GanttChartExcel.jpg}}
 	\caption{Gantt chart of current plan}
+	Note: I am not sure which feature I will be working on once I have completed the aerial mapping task so i have inserted a placeholder in the Gantt chart
 \end{figure}
 
 
@@ -148,7 +150,7 @@ If this does happen, I will need to change the way that my solution is implement
 
 	\end{figure}
 
-	\section{Appendix: 2.2 F2C Mapping}
+	\section{Appendix: 2.1.1 F2C Mapping}
 	\label{F2CMapping}
 	Note: Fields2Cover has its own drawing function which is used here
 
@@ -172,6 +174,32 @@ If this does happen, I will need to change the way that my solution is implement
 		\hfill
 
 	\end{figure}
+
+	\section{Appendix: 2.2 F2C Pathing}
+	\label{F2CCCPP}
+	Note: Fields2Cover has its own drawing function which is used here
+
+	\begin{figure}[H]
+		\centering
+		\begin{minipage}[b]{0.75\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{images/F2CPath.jpg}
+			\caption{Path generated by F2C on a basic field}
+		\end{minipage}
+
+		\hfill
+		\vspace{1em}
+
+		\begin{minipage}[b]{0.75\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{images/F2CPathHoles.jpg}
+			\caption{Path generated by F2C on a field with holes}
+		\end{minipage}
+
+		\hfill
+
+	\end{figure}
+
 \end{appendix}
 
 % \bibliographystyle{apalike}

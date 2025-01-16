@@ -105,6 +105,21 @@ def FieldConfig(angles, holes):
             )
         ),
     )
+
+    # rand = f2c.Random()
+    # field = rand.generateRandField(100, 5)
+    # hole1 = field.getField()
+    # print("hole1 for i ")
+    # print("HOLE!")
+    # print(hole1[0])
+    #
+    # # ring = f2c.LinearRing()
+    # # for j in hole1:
+    # #     ring.addPoint(j[0], j[1])
+    #
+    # cells.addGeometry(hole1[0])
+    #
+    # cells.addRing(ring)
     cells.addRing(
         0,
         f2c.LinearRing(
@@ -122,10 +137,40 @@ def FieldConfig(angles, holes):
     return cells
 
 
+def randomFieldConfig(angles, holes):
+    rand = f2c.Random()
+    cells = f2c.Cells()
+
+    field = rand.generateRandField(5e3, angles)
+    fieldField = field.getField()
+    cells.addGeometry(fieldField[0])
+
+    for j in range(1):
+        # rand = f2c.Random()
+        hole = rand.generateRandCell(6e3, 3)
+        for i in hole[0]:
+            i.setX(i.getX() + 40)
+        # holeField = hole.getField()
+        cells.addGeometry(hole)
+
+    return cells
+
+
 def randomMultiHoles():
     mower = mowerConfig(1.0, 1.0)
 
-    cells = FieldConfig(1, 1)
+    # rand = f2c.Random()
+    # cells = f2c.Cells()
+    #
+    # field = rand.generateRandField(1e4, 5)
+    # field1 = field.getField()
+    # cells.addGeometry(field1[0])
+
+    # for j in range(3):
+    #     field = rand.generateRandField(1e4, 5)
+    #     field = field.getField()
+    #     cells.addGeometry(field[0])
+    cells = FieldConfig(5, 4)
 
     const_hl = f2c.HG_Const_gen()
     mid_hl = const_hl.generateHeadlands(cells, 1.5 * mower.getWidth())
@@ -138,9 +183,11 @@ def randomMultiHoles():
     route = route_planner.genRoute(mid_hl, swaths)
 
     drawCell([cells, swaths, no_hl, route])
+    drawCell(cells)
     print(cells[0].area())
     print(route)
 
 
 # main()
-randomMultiHoles()
+# randomMultiHoles()
+main()
