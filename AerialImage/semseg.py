@@ -120,7 +120,8 @@ binary_mask = cv2.morphologyEx(
 # Find contours
 # contours, _ = cv2.findContours(binary_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-contours, _ = cv2.findContours(binary_mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+contours, _ = cv2.findContours(
+    binary_mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
 # Select the largest field contour
 if contours:
